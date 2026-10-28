@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"features\/vch\/VchOnixPrintEbookShort[2.1:96]","start":1793185072027,"end":1793185087964,"title":"features\/vch\/VchOnixPrintEbookShort[2.1:96] 16:27:52.027-16:28:07.964 VCH Print ebook Short FTP"},{"id":2,"group":1,"content":"features\/vch\/VchOnixPrintEbookShortReference[2.1:95]","start":1793185091995,"end":1793185103895,"title":"features\/vch\/VchOnixPrintEbookShortReference[2.1:95] 16:28:11.995-16:28:23.895 VCH Onix Print Ebook Short Reference FTP"},{"id":3,"group":1,"content":"features\/vch\/VchOnixReference[2.1:96]","start":1793185104616,"end":1793185123810,"title":"features\/vch\/VchOnixReference[2.1:96] 16:28:24.616-16:28:43.810 VCH Onix Reference FTP"},{"id":4,"group":1,"content":"features\/vch\/VchOnixShort[2.1:96]","start":1793185124555,"end":1793185143732,"title":"features\/vch\/VchOnixShort[2.1:96] 16:28:44.555-16:29:03.732 VCH Onix Short FTP"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

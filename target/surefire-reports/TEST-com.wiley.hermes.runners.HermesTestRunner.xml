@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.wiley.hermes.runners.HermesTestRunner" time="84.957" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Repos\Galaxy\hermes_end_to_end_test_new\target\test-classes;C:\Repos\Galaxy\hermes_end_to_end_test_new\target\classes;C:\Users\asenarath\.m2\repository\com\intuit\karate\karate-junit5\1.4.1\karate-junit5-1.4.1.jar;C:\Users\asenarath\.m2\repository\com\intuit\karate\karate-core\1.4.1\karate-core-1.4.1.jar;C:\Users\asenarath\.m2\repository\org\graalvm\js\js-scriptengine\22.3.3\js-scriptengine-22.3.3.jar;C:\Users\asenarath\.m2\repository\org\graalvm\sdk\graal-sdk\22.3.3\graal-sdk-22.3.3.jar;C:\Users\asenarath\.m2\repository\org\graalvm\js\js\22.3.3\js-22.3.3.jar;C:\Users\asenarath\.m2\repository\org\graalvm\regex\regex\22.3.3\regex-22.3.3.jar;C:\Users\asenarath\.m2\repository\org\graalvm\truffle\truffle-api\22.3.3\truffle-api-22.3.3.jar;C:\Users\asenarath\.m2\repository\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;C:\Users\asenarath\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\asenarath\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\asenarath\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\asenarath\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\asenarath\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\asenarath\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\asenarath\.m2\repository\com\linecorp\armeria\armeria\1.25.2\armeria-1.25.2.jar;C:\Users\asenarath\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\asenarath\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\asenarath\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.2\jackson-datatype-jdk8-2.15.2.jar;C:\Users\asenarath\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.2\jackson-datatype-jsr310-2.15.2.jar;C:\Users\asenarath\.m2\repository\io\micrometer\micrometer-core\1.11.3\micrometer-core-1.11.3.jar;C:\Users\asenarath\.m2\repository\io\micrometer\micrometer-commons\1.11.3\micrometer-commons-1.11.3.jar;C:\Users\asenarath\.m2\repository\io\micrometer\micrometer-observation\1.11.3\micrometer-observation-1.11.3.jar;C:\Users\asenarath\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\asenarath\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-codec-haproxy\4.1.96.Final\netty-codec-haproxy-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-codec-http2\4.1.96.Final\netty-codec-http2-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-resolver-dns\4.1.96.Final\netty-resolver-dns-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-codec-dns\4.1.96.Final\netty-codec-dns-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\asenarath\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-handler-proxy\4.1.96.Final\netty-handler-proxy-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-codec-socks\4.1.96.Final\netty-codec-socks-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-linux-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-linux-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final-linux-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-osx-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.96.Final\netty-resolver-dns-native-macos-4.1.96.Final-osx-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.96.Final\netty-resolver-dns-classes-macos-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-osx-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final-osx-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.96.Final\netty-resolver-dns-native-macos-4.1.96.Final-osx-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-tcnative-classes\2.0.61.Final\netty-tcnative-classes-2.0.61.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar;C:\Users\asenarath\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.12.0\brotli4j-1.12.0.jar;C:\Users\asenarath\.m2\repository\com\aayushatharva\brotli4j\service\1.12.0\service-1.12.0.jar;C:\Users\asenarath\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.12.0\native-windows-x86_64-1.12.0.jar;C:\Users\asenarath\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\asenarath\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\asenarath\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\asenarath\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\asenarath\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\asenarath\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.9\jcl-over-slf4j-2.0.9.jar;C:\Users\asenarath\.m2\repository\org\antlr\antlr4-runtime\4.11.1\antlr4-runtime-4.11.1.jar;C:\Users\asenarath\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\asenarath\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\asenarath\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\asenarath\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\asenarath\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\asenarath\.m2\repository\de\siegmar\fastcsv\2.2.1\fastcsv-2.2.1.jar;C:\Users\asenarath\.m2\repository\info\picocli\picocli\4.7.1\picocli-4.7.1.jar;C:\Users\asenarath\.m2\repository\io\github\classgraph\classgraph\4.8.160\classgraph-4.8.160.jar;C:\Users\asenarath\.m2\repository\io\github\t12y\resemble\1.0.2\resemble-1.0.2.jar;C:\Users\asenarath\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\asenarath\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\asenarath\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\asenarath\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\asenarath\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\asenarath\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\asenarath\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\asenarath\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.12.700\aws-java-sdk-s3-1.12.700.jar;C:\Users\asenarath\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.12.700\aws-java-sdk-kms-1.12.700.jar;C:\Users\asenarath\.m2\repository\com\amazonaws\aws-java-sdk-core\1.12.700\aws-java-sdk-core-1.12.700.jar;C:\Users\asenarath\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\asenarath\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.7.1\jackson-databind-2.12.7.1.jar;C:\Users\asenarath\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.12.6\jackson-dataformat-cbor-2.12.6.jar;C:\Users\asenarath\.m2\repository\joda-time\joda-time\2.8.1\joda-time-2.8.1.jar;C:\Users\asenarath\.m2\repository\com\amazonaws\jmespath-java\1.12.700\jmespath-java-1.12.700.jar;C:\Users\asenarath\.m2\repository\commons-net\commons-net\3.10.0\commons-net-3.10.0.jar;C:\Users\asenarath\.m2\repository\com\jcraft\jsch\0.1.55\jsch-0.1.55.jar;C:\Users\asenarath\.m2\repository\com\tibco\tibjms\tibjms\2.0\tibjms-2.0.jar;C:\Users\asenarath\.m2\repository\javax\jms\javax.jms-api\2.0.1\javax.jms-api-2.0.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="karate.env" value=""/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\asenarath\AppData\Local\Temp\surefire2454095801589633799\surefirebooter-20261028162736350_3.jar C:\Users\asenarath\AppData\Local\Temp\surefire2454095801589633799 2026-10-28T16-27-35_051-jvmRun1 surefire-20261028162736350_1tmp surefire_0-20261028162736350_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.wiley.hermes.runners.HermesTestRunner"/>
+    <property name="surefire.test.class.path" value="C:\Repos\Galaxy\hermes_end_to_end_test_new\target\test-classes;C:\Repos\Galaxy\hermes_end_to_end_test_new\target\classes;C:\Users\asenarath\.m2\repository\com\intuit\karate\karate-junit5\1.4.1\karate-junit5-1.4.1.jar;C:\Users\asenarath\.m2\repository\com\intuit\karate\karate-core\1.4.1\karate-core-1.4.1.jar;C:\Users\asenarath\.m2\repository\org\graalvm\js\js-scriptengine\22.3.3\js-scriptengine-22.3.3.jar;C:\Users\asenarath\.m2\repository\org\graalvm\sdk\graal-sdk\22.3.3\graal-sdk-22.3.3.jar;C:\Users\asenarath\.m2\repository\org\graalvm\js\js\22.3.3\js-22.3.3.jar;C:\Users\asenarath\.m2\repository\org\graalvm\regex\regex\22.3.3\regex-22.3.3.jar;C:\Users\asenarath\.m2\repository\org\graalvm\truffle\truffle-api\22.3.3\truffle-api-22.3.3.jar;C:\Users\asenarath\.m2\repository\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;C:\Users\asenarath\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\asenarath\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\asenarath\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\asenarath\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\asenarath\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\asenarath\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\asenarath\.m2\repository\com\linecorp\armeria\armeria\1.25.2\armeria-1.25.2.jar;C:\Users\asenarath\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\asenarath\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\asenarath\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.2\jackson-datatype-jdk8-2.15.2.jar;C:\Users\asenarath\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.2\jackson-datatype-jsr310-2.15.2.jar;C:\Users\asenarath\.m2\repository\io\micrometer\micrometer-core\1.11.3\micrometer-core-1.11.3.jar;C:\Users\asenarath\.m2\repository\io\micrometer\micrometer-commons\1.11.3\micrometer-commons-1.11.3.jar;C:\Users\asenarath\.m2\repository\io\micrometer\micrometer-observation\1.11.3\micrometer-observation-1.11.3.jar;C:\Users\asenarath\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\asenarath\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-codec-haproxy\4.1.96.Final\netty-codec-haproxy-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-codec-http2\4.1.96.Final\netty-codec-http2-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-resolver-dns\4.1.96.Final\netty-resolver-dns-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-codec-dns\4.1.96.Final\netty-codec-dns-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\asenarath\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-handler-proxy\4.1.96.Final\netty-handler-proxy-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-codec-socks\4.1.96.Final\netty-codec-socks-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-linux-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-linux-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final-linux-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-osx-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.96.Final\netty-resolver-dns-native-macos-4.1.96.Final-osx-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.96.Final\netty-resolver-dns-classes-macos-4.1.96.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-osx-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final-osx-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.96.Final\netty-resolver-dns-native-macos-4.1.96.Final-osx-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-tcnative-classes\2.0.61.Final\netty-tcnative-classes-2.0.61.Final.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar;C:\Users\asenarath\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar;C:\Users\asenarath\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.12.0\brotli4j-1.12.0.jar;C:\Users\asenarath\.m2\repository\com\aayushatharva\brotli4j\service\1.12.0\service-1.12.0.jar;C:\Users\asenarath\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.12.0\native-windows-x86_64-1.12.0.jar;C:\Users\asenarath\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\asenarath\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\asenarath\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\asenarath\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\asenarath\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\asenarath\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.9\jcl-over-slf4j-2.0.9.jar;C:\Users\asenarath\.m2\repository\org\antlr\antlr4-runtime\4.11.1\antlr4-runtime-4.11.1.jar;C:\Users\asenarath\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\asenarath\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\asenarath\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\asenarath\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\asenarath\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\asenarath\.m2\repository\de\siegmar\fastcsv\2.2.1\fastcsv-2.2.1.jar;C:\Users\asenarath\.m2\repository\info\picocli\picocli\4.7.1\picocli-4.7.1.jar;C:\Users\asenarath\.m2\repository\io\github\classgraph\classgraph\4.8.160\classgraph-4.8.160.jar;C:\Users\asenarath\.m2\repository\io\github\t12y\resemble\1.0.2\resemble-1.0.2.jar;C:\Users\asenarath\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\asenarath\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\asenarath\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\asenarath\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\asenarath\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\asenarath\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\asenarath\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\asenarath\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.12.700\aws-java-sdk-s3-1.12.700.jar;C:\Users\asenarath\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.12.700\aws-java-sdk-kms-1.12.700.jar;C:\Users\asenarath\.m2\repository\com\amazonaws\aws-java-sdk-core\1.12.700\aws-java-sdk-core-1.12.700.jar;C:\Users\asenarath\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\asenarath\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.7.1\jackson-databind-2.12.7.1.jar;C:\Users\asenarath\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.12.6\jackson-dataformat-cbor-2.12.6.jar;C:\Users\asenarath\.m2\repository\joda-time\joda-time\2.8.1\joda-time-2.8.1.jar;C:\Users\asenarath\.m2\repository\com\amazonaws\jmespath-java\1.12.700\jmespath-java-1.12.700.jar;C:\Users\asenarath\.m2\repository\commons-net\commons-net\3.10.0\commons-net-3.10.0.jar;C:\Users\asenarath\.m2\repository\com\jcraft\jsch\0.1.55\jsch-0.1.55.jar;C:\Users\asenarath\.m2\repository\com\tibco\tibjms\tibjms\2.0\tibjms-2.0.jar;C:\Users\asenarath\.m2\repository\javax\jms\javax.jms-api\2.0.1\javax.jms-api-2.0.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\asenarath"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Repos\Galaxy\hermes_end_to_end_test_new"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="karate.options" value="--tags @ftp"/>
+    <property name="surefire.real.class.path" value="C:\Users\asenarath\AppData\Local\Temp\surefire2454095801589633799\surefirebooter-20261028162736350_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.20.1+1"/>
+    <property name="user.name" value="asenarath"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.20.1+1"/>
+    <property name="localRepository" value="C:\Users\asenarath\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASENAR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.20.1"/>
+    <property name="user.dir" value="C:\Repos\Galaxy\hermes_end_to_end_test_new"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\asenarath\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\asenarath\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot\bin;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\Eclipse Adoptium\jre-17.0.18.8-hotspot\bin;C:\Program Files\Java\jdk-26\bin;C:\Program Files\Python314\Scripts\;C:\Program Files\Python314\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\cursor\resources\app\bin;C:\Program Files\dotnet\;C:\Program Files\Maven\apache-maven-3.9.14\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\asenarath\scoop\shims;C:\Users\asenarath\AppData\Local\Microsoft\WindowsApps;C:\Users\asenarath\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\asenarath\AppData\Local\Programs\Git\cmd;C:\Users\asenarath\AppData\Local\Programs\Antigravity\bin;C:\Users\asenarath\AppData\Roaming\npm;C:\Users\asenarath\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1.7\bin;C:\Users\asenarath\AppData\Local\JetBrains\Toolbox\scripts;;C:\Users\asenarath\AppData\Local\JetBrains\IntelliJ IDEA 2024.3.7.1\bin;;c:\Users\asenarath\.vscode\extensions\vscjava.vscode-java-debug-0.60.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.20.1+1"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testParallel" classname="com.wiley.hermes.runners.HermesTestRunner" time="84.852">
+    <system-out><![CDATA[16:27:41.563 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @ftp
+16:27:46.982 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1793185066954
+16:27:52.133 [main] INFO  com.intuit.karate - Running Karate tests in environment: qa 
+16:27:52.182 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:features/helpers/Auth.feature
+16:27:55.583 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:features/helpers/Auth.feature
+16:27:57.783 [main] INFO  com.intuit.karate - [print] ? Successfully registered license: vchftp-1793185075653 
+Connecting to FTP: dpl-ftp-service-qa.aws.wiley.com:8721
+✅ Uploaded RAW file to FTP: /vch_onix/print_ebook/short/wileyDE_3.1_incremental_02_13_2026.xml
+✅ Found Expected TIBCO Event: DELIVERY_ENDED
+
+⚠️ DB Cleanup Warning for vchftp-1793185075653: 409
+---------------------------------------------------------
+feature: classpath:features/vch/VchOnixPrintEbookShort.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 12.3421
+---------------------------------------------------------
+
+16:28:11.951 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 7 of 10 (0 remaining) classpath:features/vch/VchOnixPrintEbookShort.feature
+16:28:12.013 [main] INFO  com.intuit.karate - Running Karate tests in environment: qa 
+16:28:13.653 [main] INFO  com.intuit.karate - [print] ? Successfully registered license: vchrefftp-1793185092079 
+Connecting to FTP: dpl-ftp-service-qa.aws.wiley.com:8721
+✅ Uploaded RAW file to FTP: /vch_onix/print_ebook/reference/wileyDE_3.1_incremental_02_13_2026.xml
+⚠️ [TIBCO Traffic]: {
+  "eventType" : "DELIVERY_STARTED",
+  "eventId" : "30e21ec7-edfb-4de5-8b0c-97dc078ef9ff",
+  "processId" : "89266dca-3de7-4b18-8564-014a91612a95",
+  "transactionId" : "588d7d06-abe2-4cb6-bf1d-d1c3477c1c54",
+  "receivedTransactionId" : "d8c30cb4-5d9f-49c4-8206-831385215427",
+  "deliveryPriority" : "0",
+  "created" : "2026-10-28T10:58:21.886133Z",
+  "createdBy" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzeXNpZCI6IjAwZDUzNGI2LTg4NjYtNDg2Mi1iNWQxLWZlN2U4OGY0NGM1OCIsImV4cCI6MTg3OTU4NDk2NiwiaWF0IjoxNzkzMTg0OTY2fQ.k5poys--76h3BJoM7tQ0o1TTjCvlvMJFwhw1OYrUjdg",
+  "payload" : {
+    "modelType" : "Delivery",
+    "id" : "a2e1baa9-548a-4a02-a0d3-3b3935ea59fd",
+    "setId" : "768fc98c-c94b-4f2e-a873-b3519f57906c",
+    "contentRecipient" : [ {
+      "modelType" : "Participant",
+      "id" : "qa_test"
+    } ],
+    "appliesDeliveryLicense" : {
+      "modelType" : "DeliveryLicense",
+      "id" : "vchrefftp-1793185092079",
+      "_links" : {
+        "self" : {
+          "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/DeliveryLicenses/vchrefftp-1793185092079"
+        }
+      }
+    },
+    "createdAtTime" : "2026-10-28T10:58:19.379Z",
+    "startedAtTime" : "2026-10-28T10:58:21.86Z",
+    "receivedEvent" : [ {
+      "modelType" : "Event",
+      "id" : "e3f42540-092e-4631-9558-163623ff1bdc",
+      "eventType" : "VCH_ONIX_PRINT_EBOOK_REFERENCE",
+      "_links" : {
+        "self" : {
+          "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/ReceivedEvents/e3f42540-092e-4631-9558-163623ff1bdc"
+        }
+      }
+    } ],
+    "_links" : {
+      "self" : {
+        "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/Deliveries/a2e1baa9-548a-4a02-a0d3-3b3935ea59fd"
+      }
+    }
+  }
+}
+⚠️ [TIBCO Traffic]: {
+  "eventType" : "DELIVERY_STARTED",
+  "eventId" : "2b2c07be-8f2e-4942-92bf-c130cf73af99",
+  "processId" : "89266dca-3de7-4b18-8564-014a91612a95",
+  "transactionId" : "bfc2a7f1-ba2e-4df7-9ce9-ea02f29dac59",
+  "receivedTransactionId" : "d8c30cb4-5d9f-49c4-8206-831385215427",
+  "deliveryPriority" : "0",
+  "created" : "2026-10-28T10:58:21.89903Z",
+  "createdBy" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzeXNpZCI6IjAwZDUzNGI2LTg4NjYtNDg2Mi1iNWQxLWZlN2U4OGY0NGM1OCIsImV4cCI6MTg3OTU4NDk2NiwiaWF0IjoxNzkzMTg0OTY2fQ.k5poys--76h3BJoM7tQ0o1TTjCvlvMJFwhw1OYrUjdg",
+  "payload" : {
+    "modelType" : "Delivery",
+    "id" : "eda4f993-74ce-4926-bc59-56a828481313",
+    "setId" : "768fc98c-c94b-4f2e-a873-b3519f57906c",
+    "contentRecipient" : [ {
+      "modelType" : "Participant",
+      "id" : "qa_test"
+    } ],
+    "appliesDeliveryLicense" : {
+      "modelType" : "DeliveryLicense",
+      "id" : "vchrefftp-1793183983070",
+      "_links" : {
+        "self" : {
+          "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/DeliveryLicenses/vchrefftp-1793183983070"
+        }
+      }
+    },
+    "createdAtTime" : "2026-10-28T10:58:19.379Z",
+    "startedAtTime" : "2026-10-28T10:58:21.86Z",
+    "receivedEvent" : [ {
+      "modelType" : "Event",
+      "id" : "e3f42540-092e-4631-9558-163623ff1bdc",
+      "eventType" : "VCH_ONIX_PRINT_EBOOK_REFERENCE",
+      "_links" : {
+        "self" : {
+          "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/ReceivedEvents/e3f42540-092e-4631-9558-163623ff1bdc"
+        }
+      }
+    } ],
+    "_links" : {
+      "self" : {
+        "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/Deliveries/eda4f993-74ce-4926-bc59-56a828481313"
+      }
+    }
+  }
+}
+✅ Found Expected TIBCO Event: DELIVERY_ENDED
+
+⚠️ DB Cleanup Warning for vchrefftp-1793185092079: 409
+---------------------------------------------------------
+feature: classpath:features/vch/VchOnixPrintEbookShortReference.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 11.8405
+---------------------------------------------------------
+
+16:28:24.611 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 8 of 10 (0 remaining) classpath:features/vch/VchOnixPrintEbookShortReference.feature
+16:28:24.619 [main] INFO  com.intuit.karate - Running Karate tests in environment: qa 
+16:28:25.849 [main] INFO  com.intuit.karate - [print] ? Successfully registered license: vchonixftp-1793185104630 
+Connecting to FTP: dpl-ftp-service-qa.aws.wiley.com:8721
+✅ Uploaded RAW file to FTP: /vch_onix/print/reference/wileyDE_3.1_incremental_02_13_2026.xml
+⚠️ [TIBCO Traffic]: {
+  "eventType" : "DELIVERY_STARTED",
+  "eventId" : "d12a8519-b960-4aa4-8689-cb07e1c207b3",
+  "processId" : "d623a6e4-6c25-4611-b6ee-e12da1739132",
+  "transactionId" : "dfa49300-15ba-4690-aa53-d15c2bc41b2c",
+  "receivedTransactionId" : "2c390cdf-fd7d-4b50-b7e2-3cbcddb0a2a9",
+  "deliveryPriority" : "0",
+  "created" : "2026-10-28T10:58:41.890292Z",
+  "createdBy" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzeXNpZCI6IjAwZDUzNGI2LTg4NjYtNDg2Mi1iNWQxLWZlN2U4OGY0NGM1OCIsImV4cCI6MTg3OTU4NDk2NiwiaWF0IjoxNzkzMTg0OTY2fQ.k5poys--76h3BJoM7tQ0o1TTjCvlvMJFwhw1OYrUjdg",
+  "payload" : {
+    "modelType" : "Delivery",
+    "id" : "ca436d22-1302-49b2-8c8c-acd9525a2e64",
+    "setId" : "e08a5926-15a8-4645-abdb-15cfe0f5bcaa",
+    "contentRecipient" : [ {
+      "modelType" : "Participant",
+      "id" : "qa_test"
+    } ],
+    "appliesDeliveryLicense" : {
+      "modelType" : "DeliveryLicense",
+      "id" : "vchonixftp-1793185104630",
+      "_links" : {
+        "self" : {
+          "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/DeliveryLicenses/vchonixftp-1793185104630"
+        }
+      }
+    },
+    "createdAtTime" : "2026-10-28T10:58:31.493Z",
+    "startedAtTime" : "2026-10-28T10:58:41.864Z",
+    "receivedEvent" : [ {
+      "modelType" : "Event",
+      "id" : "a996d107-f0cb-497e-89d1-6aee658a9f56",
+      "eventType" : "VCH_ONIX_REFERENCE",
+      "_links" : {
+        "self" : {
+          "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/ReceivedEvents/a996d107-f0cb-497e-89d1-6aee658a9f56"
+        }
+      }
+    } ],
+    "_links" : {
+      "self" : {
+        "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/Deliveries/ca436d22-1302-49b2-8c8c-acd9525a2e64"
+      }
+    }
+  }
+}
+⚠️ [TIBCO Traffic]: {
+  "eventType" : "DELIVERY_STARTED",
+  "eventId" : "72650c0e-429b-4f6e-bd28-dadd52903409",
+  "processId" : "d623a6e4-6c25-4611-b6ee-e12da1739132",
+  "transactionId" : "5b6a11fa-b04a-478b-bcbf-503eb0d9619d",
+  "receivedTransactionId" : "2c390cdf-fd7d-4b50-b7e2-3cbcddb0a2a9",
+  "deliveryPriority" : "0",
+  "created" : "2026-10-28T10:58:41.903445Z",
+  "createdBy" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzeXNpZCI6IjAwZDUzNGI2LTg4NjYtNDg2Mi1iNWQxLWZlN2U4OGY0NGM1OCIsImV4cCI6MTg3OTU4NDk2NiwiaWF0IjoxNzkzMTg0OTY2fQ.k5poys--76h3BJoM7tQ0o1TTjCvlvMJFwhw1OYrUjdg",
+  "payload" : {
+    "modelType" : "Delivery",
+    "id" : "ee30a3d4-48d9-41f1-bf52-5d0481004fc8",
+    "setId" : "e08a5926-15a8-4645-abdb-15cfe0f5bcaa",
+    "contentRecipient" : [ {
+      "modelType" : "Participant",
+      "id" : "qa_test"
+    } ],
+    "appliesDeliveryLicense" : {
+      "modelType" : "DeliveryLicense",
+      "id" : "vchonixftp-1793184357367",
+      "_links" : {
+        "self" : {
+          "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/DeliveryLicenses/vchonixftp-1793184357367"
+        }
+      }
+    },
+    "createdAtTime" : "2026-10-28T10:58:31.493Z",
+    "startedAtTime" : "2026-10-28T10:58:41.864Z",
+    "receivedEvent" : [ {
+      "modelType" : "Event",
+      "id" : "a996d107-f0cb-497e-89d1-6aee658a9f56",
+      "eventType" : "VCH_ONIX_REFERENCE",
+      "_links" : {
+        "self" : {
+          "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/ReceivedEvents/a996d107-f0cb-497e-89d1-6aee658a9f56"
+        }
+      }
+    } ],
+    "_links" : {
+      "self" : {
+        "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/Deliveries/ee30a3d4-48d9-41f1-bf52-5d0481004fc8"
+      }
+    }
+  }
+}
+✅ Found Expected TIBCO Event: DELIVERY_ENDED
+
+⚠️ DB Cleanup Warning for vchonixftp-1793185104630: 409
+---------------------------------------------------------
+feature: classpath:features/vch/VchOnixReference.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 19.1837
+---------------------------------------------------------
+
+16:28:44.547 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 9 of 10 (0 remaining) classpath:features/vch/VchOnixReference.feature
+16:28:44.556 [main] INFO  com.intuit.karate - Running Karate tests in environment: qa 
+16:28:45.758 [main] INFO  com.intuit.karate - [print] ? Successfully registered license: vchshortftp-1793185124566 
+Connecting to FTP: dpl-ftp-service-qa.aws.wiley.com:8721
+✅ Uploaded RAW file to FTP: /vch_onix/print/short/wileyDE_3.1_incremental_02_13_2026.xml
+⚠️ [TIBCO Traffic]: {
+  "eventType" : "DELIVERY_STARTED",
+  "eventId" : "65f11e45-0303-46d8-979f-6680755cfe20",
+  "processId" : "72be90fb-b820-4b76-a117-feacc3f9f987",
+  "transactionId" : "2e45e80e-182d-446c-955a-bb446a69f35e",
+  "receivedTransactionId" : "7fc60762-e1ac-4a47-bd20-66c740591782",
+  "deliveryPriority" : "0",
+  "created" : "2026-10-28T10:59:01.888409Z",
+  "createdBy" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzeXNpZCI6IjAwZDUzNGI2LTg4NjYtNDg2Mi1iNWQxLWZlN2U4OGY0NGM1OCIsImV4cCI6MTg3OTU4NDk2NiwiaWF0IjoxNzkzMTg0OTY2fQ.k5poys--76h3BJoM7tQ0o1TTjCvlvMJFwhw1OYrUjdg",
+  "payload" : {
+    "modelType" : "Delivery",
+    "id" : "bffe0a27-548c-41c4-9384-0399cdb92c81",
+    "setId" : "a11ad193-8a9b-458a-a69d-ca48b0b5e675",
+    "contentRecipient" : [ {
+      "modelType" : "Participant",
+      "id" : "qa_test"
+    } ],
+    "appliesDeliveryLicense" : {
+      "modelType" : "DeliveryLicense",
+      "id" : "vchshortftp-1793185124566",
+      "_links" : {
+        "self" : {
+          "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/DeliveryLicenses/vchshortftp-1793185124566"
+        }
+      }
+    },
+    "createdAtTime" : "2026-10-28T10:58:51.418Z",
+    "startedAtTime" : "2026-10-28T10:59:01.863Z",
+    "receivedEvent" : [ {
+      "modelType" : "Event",
+      "id" : "d85ebbed-f6af-4f66-94a6-3a1b95a27fd2",
+      "eventType" : "VCH_ONIX_SHORT",
+      "_links" : {
+        "self" : {
+          "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/ReceivedEvents/d85ebbed-f6af-4f66-94a6-3a1b95a27fd2"
+        }
+      }
+    } ],
+    "_links" : {
+      "self" : {
+        "href" : "http://dpl-delivery-db-service-qa.aws.wiley.com:8080/v1/Deliveries/bffe0a27-548c-41c4-9384-0399cdb92c81"
+      }
+    }
+  }
+}
+✅ Found Expected TIBCO Event: DELIVERY_ENDED
+
+⚠️ DB Cleanup Warning for vchshortftp-1793185124566: 409
+---------------------------------------------------------
+feature: classpath:features/vch/VchOnixShort.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 19.1686
+---------------------------------------------------------
+
+16:29:04.419 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 10 of 10 (0 remaining) classpath:features/vch/VchOnixShort.feature
+Karate version: 1.4.1
+======================================================
+elapsed:  82.91 | threads:    1 | thread time: 62.54 
+features:     4 | skipped:    6 | efficiency: 0.75
+scenarios:    4 | passed:     4 | failed: 0
+======================================================
+
+HTML report: (paste into browser to view) | Karate version: 1.4.1
+file:///C:/Repos/Galaxy/hermes_end_to_end_test_new/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>

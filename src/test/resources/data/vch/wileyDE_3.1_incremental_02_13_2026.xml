@@ -1,0 +1,1880 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Created by ONIX Export Engine V3.4.7.0, Dezember 2024, Infos: https://onixtools.de -->
+<!-- Copyright (c) 2024, BARKMANN software & services - All rights reserved -->
+<ONIXmessage xmlns="http://ns.editeur.org/onix/3.1/short" release="3.1">
+<header>
+   <sender>
+      <senderidentifier>
+         <m379>05</m379>
+         <b244>5109189</b244>
+      </senderidentifier>
+      <x298>Wiley-VCH GmbH</x298>
+      <x299>Andrew Dawton</x299>
+      <j272>DL-VCHOnix@wiley.com</j272>
+   </sender>
+   <addressee>
+      <addresseeidentifier>
+         <m380>01</m380>
+         <b233>Wiley &amp; Sons</b233>
+         <b244>101</b244>
+      </addresseeidentifier>
+      <x300>Wiley &amp; Sons</x300>
+      <x299>Frank McDermott</x299>
+      <j272>fmcdermo@wiley.com</j272>
+   </addressee>
+   <x307>20260213T074645</x307>
+</header>
+<product>
+   <a001>3527326405</a001>
+   <a002>02</a002>
+   <a194>01</a194>
+   <recordsourceidentifier>
+      <x311>05</x311>
+      <b244>5109189</b244>
+   </recordsourceidentifier>
+   <a197>Wiley-VCH GmbH</a197>
+   <productidentifier><b221>01</b221><b233>Publishers Order No</b233><b244>1132640 000</b244></productidentifier>
+   <productidentifier><b221>15</b221><b244>9783527326402</b244></productidentifier>
+   <productidentifier><b221>03</b221><b244>9783527326402</b244></productidentifier>
+   <barcode><x312>01</x312><x313>00</x313></barcode>
+   <descriptivedetail>
+      <x314>00</x314>
+      <b012>BB</b012>
+      <x416>10</x416>
+      <measure><x315>01</x315><c094>244</c094><c095>mm</c095></measure>
+      <measure><x315>02</x315><c094>170</c094><c095>mm</c095></measure>
+      <productclassification><b274>04</b274><b275>49019900</b275></productclassification>
+      <titledetail>
+         <b202>01</b202>
+         <titleelement><b034>1</b034><x409>01</x409><b203>Data Science for Batch Processes</b203><b029>Statistical Learning, Monitoring and Understanding</b029></titleelement>
+      </titledetail>
+      <contributor>
+         <b034>1</b034>
+         <b035>A01</b035>
+         <b036>José M. González-Martínez</b036>
+         <b037>González-Martínez, José M.</b037>
+         <b039>José M.</b039>
+         <b040>González-Martínez</b040>
+         <professionalaffiliation><b046>Universidad Politécnica de Valencia, Valencia, Spain</b046></professionalaffiliation>
+      </contributor>
+      <contributor>
+         <b034>2</b034>
+         <b035>A01</b035>
+         <b036>José Camacho</b036>
+         <b037>Camacho, José</b037>
+         <b039>José</b039>
+         <b040>Camacho</b040>
+         <professionalaffiliation><b046>Universidad Politécnica de Valencia, Spain</b046></professionalaffiliation>
+      </contributor>
+      <contributor>
+         <b034>3</b034>
+         <b035>A01</b035>
+         <b036>Joan Borràs-Ferrís</b036>
+         <b037>Borràs-Ferrís, Joan</b037>
+         <b039>Joan</b039>
+         <b040>Borràs-Ferrís</b040>
+         <professionalaffiliation><b046>Technical University of Valencia, Spain</b046></professionalaffiliation>
+      </contributor>
+      <contributor>
+         <b034>4</b034>
+         <b035>A01</b035>
+         <b036>Alberto Ferrer</b036>
+         <b037>Ferrer, Alberto</b037>
+         <b039>Alberto</b039>
+         <b040>Ferrer</b040>
+         <professionalaffiliation><b046>Technical University of Valencia, Spain</b046></professionalaffiliation>
+      </contributor>
+      <b057>1</b057>
+      <b058>1. Auflage</b058>
+      <language><b253>01</b253><b252>eng</b252></language>
+      <extent><b218>11</b218><b219>256</b219><b220>03</b220></extent>
+      <extent><b218>00</b218><b219>256</b219><b220>03</b220></extent>
+      <b125>585</b125>
+      <ancillarycontent>
+         <x423>01</x423>
+         <b257>300</b257>
+      </ancillarycontent>
+      <ancillarycontent>
+         <x423>02</x423>
+         <b257>285</b257>
+      </ancillarycontent>
+      <subject>
+         <x425/>
+         <b067>26</b067>
+         <b068>2.0</b068>
+         <b069>1650</b069>
+      </subject>
+      <subject>
+         <x425/>
+         <b067>93</b067>
+         <b068>1.5</b068>
+         <b069>TDC</b069>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>CG04</b069>
+         <b070>Computergestützte Verfahrenstechnik</b070>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>CH12</b069>
+         <b070>Laborautomatisierung u. Miniaturisierung</b070>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>CH30</b069>
+         <b070>Technische u. Industrielle Chemie</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Chemical Engineering</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Chemie</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Chemische Verfahrenstechnik</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Chemistry</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Computer-Aided Engineering</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Computergestützte Verfahrenstechnik</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Industrial Chemistry</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Lab Automation &amp; Miniaturization</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Laborautomatisierung u. Miniaturisierung</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Technische u. Industrielle Chemie</b070>
+      </subject>
+   </descriptivedetail>
+   <collateraldetail>
+      <textcontent>
+         <x426>03</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">Batch Processes: Monitoring and Process Understanding offers a comprehensive examination of batch process modeling, monitoring, and control, emphasizing PAT and LSB methods such as principal component analysis (PCA) and partial least squares (PLS). Batch Processes: Monitoring and Process Understanding addresses practical challenges in batch data analysis, such as preprocessing, missing data imputation, equalization, synchronization (DTW, RGTW, Multisynchro), and multi-phase modeling. Real-world case studies and hands-on MATLAB examples using the MVBatch toolbox bridge theory and practice, demonstrating how LSB methods improve quality, safety, and economic and ecological outcomes across chemical, biotech, and pharmaceutical industries. Batch Processes: Monitoring and Process Understanding is an essential guide for professionals in chemical, biotech and pharmaceutical industries seeking both foundational knowledge and advanced techniques in batch processes and data analysis.</d104>
+      </textcontent>
+      <textcontent>
+         <x426>04</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">Prologue: Challenges for the third millennium&lt;br>1 Introduction &lt;br>1.1 Industrial batch processes &lt;br>1.2 Types of sensors &lt;br>1.3 Batch process modeling &lt;br>1.4 Bilinear modeling cycle for batch process monitoring &lt;br>2 Data-driven models based on latent variables&lt;br>2.1 Compression&lt;br>2.2 Principal components analysis &lt;br>2.3 Regression&lt;br>2.4 Regression models based on latent variables&lt;br>2.5 Multivariate Exploratory Data Analysis&lt;br>2.6 Missing data&lt;br>3 Batch data equalization &lt;br>3.1 Introduction &lt;br>3.2 Challenges in batch equalization&lt;br>3.3 Equalization of variables within a batch&lt;br>3.4 Multi-rate system &lt;br>4 Batch synchronization &lt;br>4.1 Introduction &lt;br>4.2 Synchronization approaches &lt;br>4.3 Effect of synchronization on the correlation structure &lt;br>5 Batch data preprocessing &lt;br>5.1 Batch preprocessing operations &lt;br>5.2 Mean centering &lt;br>5.3 Scaling &lt;br>6 Three-way to two-way transformation &lt;br>6.1 Introduction &lt;br>6.2 Single-model approach &lt;br>6.3 K-models approach&lt;br>6.4 Multi-phase Approach &lt;br>6.5 Conclusions &lt;br>7 Batch Process Data Analysis and Statistical Monitoring &lt;br>7.1 Introduction &lt;br>7.2 Historical Batch Data Analysis &lt;br>7.3 Batch Multivariate Statistical Process Control (BMSPC) &lt;br>7.4 Practical issues &lt;br></d104>
+      </textcontent>
+      <textcontent>
+         <x426>12</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">José M. González-Martínez is Manager of the Department of Chemometrics and Digital Chemistry at Shell Global Solutions International B.V., Amsterdam, overseeing worldwide operations and leading key consultancy efforts, new technology developments, and process improvement projects, and R&amp;D business initiatives. He specializes in Process and Analytical Chemometrics across diverse areas such as Chemicals, Refining, Catalysis, Integrated Gas (LNG, GTL, xTL), and Low Carbon Fuel and Gas solutions. He has published extensively and was awarded several industry prizes.&lt;br>&amp;nbsp;&lt;br>José Camacho is a Full Professor at the Department of Signal Theory, Telematics and Communication and leader of the Computational Data Science Laboratory (CoDaS Lab) at the University of Granada, Spain. He specializes in extracting knowledge from data and the design of new algorithms to do so. He has more than 150 publications, half of them in highly cited impact journals (JCR).&lt;br>&amp;nbsp;&lt;br>Joan Borràs-Ferrís is a researcher and specialist in chemical engineering, applied statistics, and process modeling in digitalized industrial environments. He holds a PhD in Statistics and Optimization from the Universitat Politècnica de València (UPV) and has developed his career between UPV (Spain) and Université Laval (Canada). He is currently Co-founder and Chief Technology Officer (CTO) at Kensight. He has received the ENBIS Young Statistician Award for his work in introducing innovative methods that promote the use of statistics in daily practice.&lt;br>&amp;nbsp;&lt;br>Alberto Ferrer is a Full Professor of Statistics at the Universitat Politècnica de València (Spain), head of the Multivariate Statistical Engineering Group (GIEM), co-founder and Chief Scientific Officer at Kenko Imalytics, S.L., and co-founder and Scientific Advisor at Kensight Solutions, S.L. His research focuses on the development and integration of machine learning and multivariate statistics in Data Science, collaborating with national and international researchers and industry partners (chemical, pharma, food) to address the challenges that digitalization is generating in industry, healthcare, and technology. He is a member of ISBIS and ENBIS, and an elected member of the International Statistical Institute (ISI). He is the recipient of the ENBIS Box Medal Award 2025.</d104>
+      </textcontent>
+   </collateraldetail>
+   <publishingdetail>
+      <imprint>
+         <b079>Wiley-VCH</b079>
+      </imprint>
+      <publisher>
+         <b291>01</b291>
+         <publisheridentifier>
+            <x447>05</x447>
+            <b244>5109189</b244>
+         </publisheridentifier>
+         <b081>Wiley-VCH GmbH</b081>
+         <website>
+            <b367>02</b367>
+            <b294>Wiley-VCH Online-Katalog</b294>
+            <b295>http://www.wiley-vch.de/ISBN978-3-527-32640-2</b295>
+         </website>
+         <website>
+            <b367>01</b367>
+            <b295>http://www.wiley-vch.de</b295>
+         </website>
+      </publisher>
+      <productcontact>
+         <x482>10</x482>
+         <x484>Wiley-VCH GmbH</x484>
+         <j272>product_safety@wiley.com</j272>
+         <x552>Boschstrasse 12</x552>
+         <j349>Weinheim</j349>
+         <x590>69469</x590>
+         <b251>DE</b251>
+      </productcontact>
+      <b394>02</b394>
+      <publishingdate><x448>01</x448><b306 dateformat="00">20260527</b306></publishingdate>
+   </publishingdetail>
+   <productsupply>
+      <supplydetail>
+         <supplier>
+            <j292>01</j292>
+            <supplieridentifier><j345>05</j345><b244>5109189</b244></supplieridentifier>
+            <j137>Wiley-VCH GmbH</j137>
+            <j270>+49 6201-606-0</j270>
+            <j272>info@wiley-vch.de</j272>
+            <website><b367>33</b367><b295>http://www.wiley-vch.de</b295></website>
+         </supplier>
+         <j396>10</j396>
+         <supplydate><x461>08</x461><b306 dateformat="00">20260527</b306></supplydate>
+         <j145>20</j145>
+         <price>
+            <x462>02</x462>
+            <discountcoded><j363>02</j363><j378>Wiley-VCH ONIX-Rabattkennzeichen V3</j378><j364>ST</j364></discountcoded>
+            <j266>02</j266>
+            <j151>119.00</j151>
+            <tax>
+               <x470>01</x470>
+               <x471>R</x471>
+               <x472>7</x472>
+               <x473>111.21</x473>
+               <x474>7.79</x474>
+            </tax>
+            <j152>EUR</j152>
+            <territory><x449>DE</x449></territory>
+         </price>
+      </supplydetail>
+   </productsupply>
+</product>
+<product>
+   <a001>3527712860</a001>
+   <a002>03</a002>
+   <a194>01</a194>
+   <recordsourceidentifier>
+      <x311>05</x311>
+      <b244>5109189</b244>
+   </recordsourceidentifier>
+   <a197>Wiley-VCH GmbH</a197>
+   <productidentifier><b221>01</b221><b233>Publishers Order No</b233><b244>1171286 000</b244></productidentifier>
+   <productidentifier><b221>15</b221><b244>9783527712861</b244></productidentifier>
+   <productidentifier><b221>03</b221><b244>9783527712861</b244></productidentifier>
+   <barcode><x312>01</x312><x313>00</x313></barcode>
+   <descriptivedetail>
+      <x314>00</x314>
+      <b012>BC</b012>
+      <b014>Buch mit Audio CD</b014>
+      <x416>10</x416>
+      <measure><x315>01</x315><c094>240</c094><c095>mm</c095></measure>
+      <measure><x315>02</x315><c094>176</c094><c095>mm</c095></measure>
+      <measure><x315>03</x315><c094>9</c094><c095>mm</c095></measure>
+      <measure><x315>08</x315><c094>358</c094><c095>gr</c095></measure>
+      <x316>DE</x316>
+      <productclassification><b274>04</b274><b275>49019900</b275></productclassification>
+      <collection>
+         <x329>10</x329>
+         <collectionidentifier><x344>04</x344><b244>TR050</b244></collectionidentifier>
+         <titledetail>
+            <b202>01</b202>
+            <titleelement>
+               <b034>1</b034>
+               <x409>02</x409>
+               <b203>...für Dummies</b203>
+            </titleelement>
+         </titledetail>
+      </collection>
+      <titledetail>
+         <b202>01</b202>
+         <titleelement><b034>1</b034><x409>01</x409><b203>So leicht geht Yoga für Dummies</b203></titleelement>
+      </titledetail>
+      <contributor>
+         <b034>1</b034>
+         <b035>A01</b035>
+         <nameidentifier><x415>16</x415><b244>0000000527948712</b244></nameidentifier>
+         <b036>Julia Lemétais</b036>
+         <b037>Lemétais, Julia</b037>
+         <b039>Julia</b039>
+         <b040>Lemétais</b040>
+      </contributor>
+      <contributor>
+         <b034>2</b034>
+         <b035>B06</b035>
+         <nameidentifier><x415>16</x415><b244>0000000527948704</b244></nameidentifier>
+         <b036>Sarah-Jessica Hamm</b036>
+         <b037>Hamm, Sarah-Jessica</b037>
+         <b039>Sarah-Jessica</b039>
+         <b040>Hamm</b040>
+      </contributor>
+      <b057>1</b057>
+      <b058>1. Auflage</b058>
+      <language><b253>01</b253><b252>ger</b252></language>
+      <extent><b218>11</b218><b219>125</b219><b220>03</b220></extent>
+      <extent><b218>00</b218><b219>125</b219><b220>03</b220></extent>
+      <subject>
+         <x425/>
+         <b067>26</b067>
+         <b068>2.0</b068>
+         <b069>1460</b069>
+      </subject>
+      <subject>
+         <x425/>
+         <b067>93</b067>
+         <b068>1.5</b068>
+         <b069>VFD</b069>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>HE14</b069>
+         <b070>Private Gesundheitsvorsorge / Spezialgebiete</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Gesundheits- u. Sozialwesen</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Private Gesundheitsvorsorge / Spezialgebiete</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Yoga</b070>
+      </subject>
+   </descriptivedetail>
+   <collateraldetail>
+      <textcontent>
+         <x426>03</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="ger">Sie möchten endlich ein bisschen Zeit für sich, um den Alltagsstress für einen kurzen Moment zu vergessen? Dabei möchten Sie auch noch etwas für Ihre Fitness tun? Dann ist Yoga genau das richtige für Sie. "So leicht geht Yoga für Dummies" begleitet Sie mit zahlreichen anschaulichen Fotos von den ersten Stellungen bis hin zu ganzen Übungsfolgen. Auf der beiliegenden CD können Sie die Übungsfolgen mithören, sodass Sie sich vollständig auf sich und Ihren Körper konzentrieren können. Außerdem erfahren Sie, wie Sie Yoga in der Schwangerschaft, mit Rückenproblemen und im Alter ausüben. Mit diesem Buch werden Sie bald zu einem richtigen Yogi.</d104>
+      </textcontent>
+      <textcontent>
+         <x426>12</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="ger">Julia Lemétais ist Physiotherapeutin sowie Pilates- und Yogalehrerin. Sie hat für die französichen Dummies schon mehrere Bücher verfasst.</d104>
+      </textcontent>
+      <supportingresource>
+         <x436>01</x436>
+         <x427>00</x427>
+         <x437>03</x437>
+         <resourceversion>
+            <x441>02</x441>
+            <resourceversionfeature>
+               <x442>01</x442>
+               <x439>D502</x439>
+            </resourceversionfeature>
+            <x435>https://catalogimages.wiley.com/images/db/jimages/9783527712861.jpg</x435>
+         </resourceversion>
+      </supportingresource>
+      <supportingresource>
+         <x436>15</x436>
+         <x427>00</x427>
+         <x437>04</x437>
+         <resourceversion>
+            <x441>02</x441>
+            <resourceversionfeature>
+               <x442>01</x442>
+               <x439>E107</x439>
+            </resourceversionfeature>
+            <x435>https://catalogimages.wiley.com/images/db/pdf/9783527712861.excerpt.pdf</x435>
+         </resourceversion>
+      </supportingresource>
+   </collateraldetail>
+   <publishingdetail>
+      <imprint>
+         <b079>Wiley-VCH</b079>
+      </imprint>
+      <publisher>
+         <b291>01</b291>
+         <publisheridentifier>
+            <x447>05</x447>
+            <b244>5109189</b244>
+         </publisheridentifier>
+         <b081>Wiley-VCH GmbH</b081>
+         <website>
+            <b367>02</b367>
+            <b294>Wiley-VCH Online-Katalog</b294>
+            <b295>http://www.wiley-vch.de/ISBN978-3-527-71286-1</b295>
+         </website>
+         <website>
+            <b367>01</b367>
+            <b295>http://www.wiley-vch.de</b295>
+         </website>
+      </publisher>
+      <productcontact>
+         <x482>10</x482>
+         <x484>Wiley-VCH GmbH</x484>
+         <j272>product_safety@wiley.com</j272>
+         <x552>Boschstrasse 12</x552>
+         <j349>Weinheim</j349>
+         <x590>69469</x590>
+         <b251>DE</b251>
+      </productcontact>
+      <b394>04</b394>
+      <publishingdate><x448>01</x448><b306 dateformat="00">20160914</b306></publishingdate>
+      <copyrightstatement>
+         <x512>C</x512>
+         <b087>2016</b087>
+      </copyrightstatement>
+   </publishingdetail>
+   <productsupply>
+      <supplydetail>
+         <supplier>
+            <j292>01</j292>
+            <supplieridentifier><j345>05</j345><b244>5109189</b244></supplieridentifier>
+            <j137>Wiley-VCH GmbH</j137>
+            <j270>+49 6201-606-0</j270>
+            <j272>info@wiley-vch.de</j272>
+            <website><b367>33</b367><b295>http://www.wiley-vch.de</b295></website>
+         </supplier>
+         <j396>20</j396>
+         <j145>44</j145>
+         <price>
+            <x462>02</x462>
+            <discountcoded><j363>02</j363><j378>Wiley-VCH ONIX-Rabattkennzeichen V3</j378><j364>PG</j364></discountcoded>
+            <j266>02</j266>
+            <j151>14.99</j151>
+            <tax>
+               <x470>01</x470>
+               <x471>R</x471>
+               <x472>7</x472>
+               <x473>14.01</x473>
+               <x474>0.98</x474>
+            </tax>
+            <j152>EUR</j152>
+            <territory><x449>DE</x449></territory>
+            <pricedate><x476>15</x476><b306 dateformat="00">20260304</b306></pricedate>
+         </price>
+         <price>
+            <x462>02</x462>
+            <discountcoded><j363>02</j363><j378>Wiley-VCH ONIX-Rabattkennzeichen V3</j378><j364>PG</j364></discountcoded>
+            <j266>02</j266>
+            <j151>15.99</j151>
+            <tax>
+               <x470>01</x470>
+               <x471>R</x471>
+               <x472>7</x472>
+               <x473>14.94</x473>
+               <x474>1.05</x474>
+            </tax>
+            <j152>EUR</j152>
+            <territory><x449>DE</x449></territory>
+            <pricedate><x476>14</x476><b306 dateformat="00">20260305</b306></pricedate>
+         </price>
+      </supplydetail>
+   </productsupply>
+</product>
+<product>
+   <a001>3527510915</a001>
+   <a002>03</a002>
+   <a194>01</a194>
+   <recordsourceidentifier>
+      <x311>05</x311>
+      <b244>5109189</b244>
+   </recordsourceidentifier>
+   <a197>Wiley-VCH GmbH</a197>
+   <productidentifier><b221>01</b221><b233>Publishers Order No</b233><b244>1151091 000</b244></productidentifier>
+   <productidentifier><b221>15</b221><b244>9783527510917</b244></productidentifier>
+   <productidentifier><b221>03</b221><b244>9783527510917</b244></productidentifier>
+   <barcode><x312>01</x312><x313>00</x313></barcode>
+   <descriptivedetail>
+      <x314>00</x314>
+      <b012>BB</b012>
+      <x416>10</x416>
+      <measure><x315>01</x315><c094>216</c094><c095>mm</c095></measure>
+      <measure><x315>02</x315><c094>140</c094><c095>mm</c095></measure>
+      <measure><x315>03</x315><c094>22</c094><c095>mm</c095></measure>
+      <measure><x315>08</x315><c094>424</c094><c095>gr</c095></measure>
+      <x316>GB</x316>
+      <productclassification><b274>04</b274><b275>49019900</b275></productclassification>
+      <titledetail>
+         <b202>01</b202>
+         <titleelement><b034>1</b034><x409>01</x409><b203>Next Level Sales</b203><b029>Wie Sie erfolgreich Ihren Vertrieb digitalisieren</b029></titleelement>
+      </titledetail>
+      <contributor>
+         <b034>1</b034>
+         <b035>A01</b035>
+         <nameidentifier><x415>16</x415><b244>0000000527945837</b244></nameidentifier>
+         <b036>Christopher Held</b036>
+         <b037>Held, Christopher</b037>
+         <b039>Christopher</b039>
+         <b040>Held</b040>
+      </contributor>
+      <b057>1</b057>
+      <b058>1. Auflage</b058>
+      <language><b253>01</b253><b252>ger</b252></language>
+      <extent><b218>11</b218><b219>240</b219><b220>03</b220></extent>
+      <extent><b218>00</b218><b219>240</b219><b220>03</b220></extent>
+      <b125>20</b125>
+      <ancillarycontent>
+         <x423>01</x423>
+         <b257>20</b257>
+      </ancillarycontent>
+      <subject>
+         <x425/>
+         <b067>26</b067>
+         <b068>2.0</b068>
+         <b069>1785</b069>
+      </subject>
+      <subject>
+         <x425/>
+         <b067>93</b067>
+         <b068>1.5</b068>
+         <b069>KJS</b069>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>BA80</b069>
+         <b070>Marketing u. Vertrieb</b070>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>BA85</b069>
+         <b070>Verkaufsleitung</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Absatzprognose</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Aussendienst</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Außendienst</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Change</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Change Management</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Changemanagement</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Corona</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>digital</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Digital</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Digitale Medien</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Digitale Transformation</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Digitalisierung</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Kontakt</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Kundenakquise</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Kundenbesuch</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Kundenbetreuung</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Kundenbindung</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Kundendienst</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Kundengespräch</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Kundengewinnung</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Kundenkontakt</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Kundenservice</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Marketing u. Vertrieb</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Produkt</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Reise</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Sales</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Strategie</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Team</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Teamentwicklung</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Teamführung</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Teamorganisation</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Umsatz</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Verkaufsleitung</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Vertreter</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Vertrieb</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Vertriebsmitarbeiter</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Wirtschaft u. Management</b070>
+      </subject>
+   </descriptivedetail>
+   <collateraldetail>
+      <textcontent>
+         <x426>03</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="ger">Analog orientierter Vertrieb ist in Deutschland aktuell noch sehr stark verbreitet. Zwar haben einige Unternehmen bereits erkannt, dass der digitale Vertrieb die Zukunft ist, doch bislang nur ein Bruchteil. Der Umbau zum digitalen Vertrieb wird dabei aktuell durch die Corona-Pandemie beschleunigt, ist aber bereits seit Jahren ein weltweit bestehender Trend, der sich nun auch in Deutschland rasant ausbreitet.&lt;br>"Next Level Sales" ist ein Leitfaden für den Umbau eines analog orientierten Vertriebs in einen virtuellen/digitalen Vertrieb. Christopher Held stellt die strategisch notwendigen Schritte für solch einen Umbau dar und erklärt eine potenzielle Implementierung Schritt für Schritt. Von einem Piloten mit einem kleinen Teil des Vertriebsteams bis zum Roll-out für eine gesamte Vertriebsmannschaft deckt das Buch alle Facetten ab. Auch der zugehörige Change-Management-Prozess wird erläutert. Christopher Held gibt Vertrieblern und deren Managern Tipps und Tricks an die Hand, mit denen sie diesen Weg erfolgreich gestalten können.&lt;br>"Next Level Sales" ist geprägt von vielen Praxiserfahrungen und Fallbeispielen während der COVID-19-Krise und davor. Es enthält viele Abbildungen und Erläuterungen aus dem "echten" (Vertriebs-)Leben.&lt;br>Das Buch von Christopher Held ist branchenübergreifend einsetzbar und legt den Fokus auf den B2B (Business to Business)-Vertrieb, deckt aber auch relevante B2C (Business to Customer)-Thematiken ab. Die dargestellten Methoden und Techniken können auch auf verwandte Gebiete wie Marketing, Customer Care und Service angewandt werden.</d104>
+      </textcontent>
+      <textcontent>
+         <x426>06</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="ger">"... Für Fach- und Führungskräfte im Vertrieb ein guter Leitfaden zur Etablierung eines virtuellen Verkaufs."&lt;br>(getAbstract im November 2021)</d104>
+      </textcontent>
+      <textcontent>
+         <x426>12</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="ger">Christopher Held ist einer der führenden Experten für das Thema Inside Sales / Next Level Sales (virtueller/remote Vertrieb).</d104>
+      </textcontent>
+      <supportingresource>
+         <x436>01</x436>
+         <x427>00</x427>
+         <x437>03</x437>
+         <resourceversion>
+            <x441>02</x441>
+            <resourceversionfeature>
+               <x442>01</x442>
+               <x439>D502</x439>
+            </resourceversionfeature>
+            <x435>https://catalogimages.wiley.com/images/db/jimages/9783527510917.jpg</x435>
+         </resourceversion>
+      </supportingresource>
+      <supportingresource>
+         <x436>15</x436>
+         <x427>00</x427>
+         <x437>04</x437>
+         <resourceversion>
+            <x441>02</x441>
+            <resourceversionfeature>
+               <x442>01</x442>
+               <x439>E107</x439>
+            </resourceversionfeature>
+            <x435>https://catalogimages.wiley.com/images/db/pdf/9783527510917.excerpt.pdf</x435>
+         </resourceversion>
+      </supportingresource>
+   </collateraldetail>
+   <publishingdetail>
+      <imprint>
+         <b079>Wiley-VCH</b079>
+      </imprint>
+      <publisher>
+         <b291>01</b291>
+         <publisheridentifier>
+            <x447>05</x447>
+            <b244>5109189</b244>
+         </publisheridentifier>
+         <b081>Wiley-VCH GmbH</b081>
+         <website>
+            <b367>02</b367>
+            <b294>Wiley-VCH Online-Katalog</b294>
+            <b295>http://www.wiley-vch.de/ISBN978-3-527-51091-7</b295>
+         </website>
+         <website>
+            <b367>01</b367>
+            <b295>http://www.wiley-vch.de</b295>
+         </website>
+      </publisher>
+      <productcontact>
+         <x482>10</x482>
+         <x484>Wiley-VCH GmbH</x484>
+         <j272>product_safety@wiley.com</j272>
+         <x552>Boschstrasse 12</x552>
+         <j349>Weinheim</j349>
+         <x590>69469</x590>
+         <b251>DE</b251>
+      </productcontact>
+      <b394>04</b394>
+      <publishingdate><x448>01</x448><b306 dateformat="00">20211006</b306></publishingdate>
+      <copyrightstatement>
+         <x512>C</x512>
+         <b087>2022</b087>
+      </copyrightstatement>
+   </publishingdetail>
+   <productsupply>
+      <supplydetail>
+         <supplier>
+            <j292>01</j292>
+            <supplieridentifier><j345>05</j345><b244>5109189</b244></supplieridentifier>
+            <j137>Wiley-VCH GmbH</j137>
+            <j270>+49 6201-606-0</j270>
+            <j272>info@wiley-vch.de</j272>
+            <website><b367>33</b367><b295>http://www.wiley-vch.de</b295></website>
+         </supplier>
+         <j396>20</j396>
+         <j145>30</j145>
+         <price>
+            <x462>04</x462>
+            <discountcoded><j363>02</j363><j378>Wiley-VCH ONIX-Rabattkennzeichen V3</j378><j364>PS</j364></discountcoded>
+            <j266>02</j266>
+            <j151>26.99</j151>
+            <tax>
+               <x470>01</x470>
+               <x471>R</x471>
+               <x472>7</x472>
+               <x473>25.22</x473>
+               <x474>1.77</x474>
+            </tax>
+            <j152>EUR</j152>
+            <territory><x449>DE</x449></territory>
+            <pricedate><x476>15</x476><b306 dateformat="00">20260304</b306></pricedate>
+         </price>
+         <price>
+            <x462>04</x462>
+            <discountcoded><j363>02</j363><j378>Wiley-VCH ONIX-Rabattkennzeichen V3</j378><j364>PS</j364></discountcoded>
+            <j266>02</j266>
+            <j151>27.99</j151>
+            <tax>
+               <x470>01</x470>
+               <x471>R</x471>
+               <x472>7</x472>
+               <x473>26.16</x473>
+               <x474>1.83</x474>
+            </tax>
+            <j152>EUR</j152>
+            <territory><x449>DE</x449></territory>
+            <pricedate><x476>14</x476><b306 dateformat="00">20260305</b306></pricedate>
+         </price>
+      </supplydetail>
+   </productsupply>
+</product>
+<product>
+   <a001>3433034605</a001>
+   <a002>02</a002>
+   <a194>01</a194>
+   <recordsourceidentifier>
+      <x311>05</x311>
+      <b244>5109189</b244>
+   </recordsourceidentifier>
+   <a197>Wiley-VCH GmbH</a197>
+   <productidentifier><b221>01</b221><b233>Publishers Order No</b233><b244>1603460 000</b244></productidentifier>
+   <productidentifier><b221>15</b221><b244>9783433034606</b244></productidentifier>
+   <productidentifier><b221>03</b221><b244>9783433034606</b244></productidentifier>
+   <barcode><x312>01</x312><x313>00</x313></barcode>
+   <descriptivedetail>
+      <x314>00</x314>
+      <b012>BB</b012>
+      <x416>10</x416>
+      <measure><x315>01</x315><c094>244</c094><c095>mm</c095></measure>
+      <measure><x315>02</x315><c094>170</c094><c095>mm</c095></measure>
+      <productclassification><b274>04</b274><b275>49019900</b275></productclassification>
+      <titledetail>
+         <b202>01</b202>
+         <titleelement><b034>1</b034><x409>01</x409><b203>Empfehlungen des Arbeitskreises "Baugrunddynamik"</b203></titleelement>
+      </titledetail>
+      <contributor>
+         <b034>1</b034>
+         <b035>B01</b035>
+         <nameidentifier><x415>16</x415><b244>0000000471433487</b244></nameidentifier>
+         <b047>Deutsche Gesellschaft für Geotechnik e.V.</b047>
+      </contributor>
+      <b057>3</b057>
+      <b058>3. erweiterte Auflage</b058>
+      <language><b253>01</b253><b252>ger</b252></language>
+      <extent><b218>11</b218><b219>272</b219><b220>03</b220></extent>
+      <extent><b218>00</b218><b219>272</b219><b220>03</b220></extent>
+      <b125>25</b125>
+      <ancillarycontent>
+         <x423>07</x423>
+         <b257>25</b257>
+      </ancillarycontent>
+      <subject>
+         <x425/>
+         <b067>26</b067>
+         <b068>2.0</b068>
+         <b069>1685</b069>
+      </subject>
+      <subject>
+         <x425/>
+         <b067>93</b067>
+         <b068>1.5</b068>
+         <b069>TN</b069>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>CE03</b069>
+         <b070>Tragwerke</b070>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>CE20</b069>
+         <b070>Erd- u. Grundbau</b070>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>CE21</b069>
+         <b070>Grundbau / Geotechnik</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Bauingenieur- u. Bauwesen</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Erd- u. Grundbau</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Grundbau / Geotechnik</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Tragwerke</b070>
+      </subject>
+   </descriptivedetail>
+   <collateraldetail>
+      <textcontent>
+         <x426>03</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">The recommendations of the Committee on Soil Dynamics (German Geotechnical Society DGGT) represent the state of the art in science and engineering. They are based on reliable findings that include empirical evidence. With many examples and step-by-step instructions.</d104>
+      </textcontent>
+      <textcontent>
+         <x426>03</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="ger">Die "Empfehlungen des Arbeitskreises 1.4 Baugrunddynamik" der Deutschen Gesellschaft für Geotechnik e.V. (DGGT) haben das Ziel, die Vorgehensweise bei baugrunddynamischen Aufgaben für die praktische Anwendung zusammenzustellen. Ferner geben sie Hinweise, wie durch angemessene baugrunddynamische Untersuchungen Schäden an Bauwerken und Anlagen sowie störende Einwirkungen auf Menschen und Geräte vermieden werden können. Für die vorliegende 3. Auflage wurden die Empfehlungen aus der 2. Auflage umfangreich überarbeitet und um ein Kapitel zum Erschütterungsschutz ergänzt.&lt;br>Voraussetzung für jede dynamische Berechnung, bei der die Wechselwirkung zwischen Boden und Bauwerk eine maßgebende Rolle spielt, ist die Ermittlung der bodendynamischen Kennwerte im Labor und in situ. Dabei müssen erprobte Techniken angewandt und Richtlinien bei der Ausführung und Auswertung eingehalten werden, die in den vorliegenden Empfehlungen beschrieben sind. Die Berechnung von dynamisch belasteten starren Fundamenten (mit oder ohne Einbettung) und von Pfahlgründungen (Einzelpfähle oder Pfahlgruppen) mit entsprechenden Anwendungsbeispielen bildet einen wesentlichen Teil der Empfehlungen. &lt;br>Zum Thema bleibende Bodenverformungen sind die Empfehlungen vollständig überarbeitet worden. Für die Scherdehnungsgrenze wird eine Bandbreite angegeben, unterhalb der keine Akkumulation bleibender Verformungen zu erwarten ist. Es wird empfohlen diese Grenze bei der Ermittlung bleibender Verformungen zu berücksichtigen. Die Ermittlung der Scherdehnungen und Spannungen für niedrige Anregungsfrequenzen wurde ergänzt und in einem Berechnungsbeispiel für ein direkt erregtes Maschinenfundament aufgezeigt. Die Ermittlung bleibender Verformungen für grobkörnige Böden mit dem sogenannten HCA-Modell wurde in einem Beispiel ausführlich dargestellt. Bei der indirekten Anregung wird der Bezug zur DIN 4150-3 hergestellt und in einem Anwendungsbeispiel einer Spundwandrammung gezeigt, welche akkumulierten Verformungen für das in der Nähe befindliche Fundament zu erwarten sind.&lt;br>Ein neues Kapitel "Ausbreitung und Übertragung von Erschütterungen" ist ebenfalls enthalten. Darin werden in der Praxis anzutreffende Schwingungs- bzw. Erschütterungsquellen wie Schienenverkehr, Baubetrieb und Abbruchsprengungen charakterisiert, die daraus resultierende Schwingungsausbreitung im Boden und schlussendlich die Boden-Bauwerk-Interaktion bzw. die Übertragung der Schwingungen in benachbarte Gebäude beschrieben. Es wird weiterhin auf die Anforderungen bezüglich Erschütterungsschutz eingegangen und mögliche konstruktive Maßnahmen zur Schwingungsminderung an der Quelle, auf dem Übertragungsweg oder am Gebäude selbst vorgestellt.&lt;br>Die vorliegenden Empfehlungen stellen den neuesten Stand von Wissenschaft und Technik auf dem Gebiet der Baugrunddynamik dar. Sie beruhen auf gesicherten Erkenntnissen, die einen empirischen Nachweis einschließen, d. h. es liegen für diese Empfehlungen auch praktische Erprobungen vor. Sie sind daher Bestandteil der "allgemein anerkannten Regeln der Technik".&lt;br>Das Buch ist eine unverzichtbare Hilfestellung mit zahlreichen Praxisbeispielen und Schritt-für-Schritt-Anleitungen bei der Planung von Bauprojekten, bei denen die dynamische Wechselwirkung Bauwerk?Baugrund berücksichtigt werden muss.&lt;br></d104>
+      </textcontent>
+      <textcontent>
+         <x426>04</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="ger">E1 Wellenausbreitung im Baugrund&lt;br>1 Grundlagen &lt;br>2 Wellenarten im homogenen Halbraum &lt;br>2.1 Vorbemerkungen &lt;br>2.2 Raumwellen &lt;br>2.3 Oberflächenwellen &lt;br>3 Wellenausbreitung im homogenen Halbraum&lt;br>3.1 Quelle an der Oberfläche &lt;br>3.2 Quelle im Untergrund&lt;br>4 Weitere Einflüsse&lt;br>4.1 Materialdämpfung&lt;br>4.2 Schichtung, Inhomogenität &lt;br>4.3 Einschlüsse und Oberflächenmorphologie&lt;br>5 Literatur&lt;br>&amp;nbsp;&lt;br>E2 Bodendynamische Kennwerte&lt;br>1 Baugrundmodell&lt;br>1.1 Voraussetzungen und Anwendungsgrenzen&lt;br>1.2 Kenngrößen&lt;br>2  Ermittlung aus bodenmechanischen und bodenphysikalischen Kennwerten&lt;br>2.1 Schubmodul bei dynamischer Beanspruchung Gd &lt;br>2.2 Dichte des Bodens &lt;br>2.3 Querdehnzahl &lt;br>2.4 Materialdämpfung &lt;br>3 Bestimmung aus bodendynamischen Versuchen&lt;br>3.1 Vorbemerkungen&lt;br>3.2 Feldversuche &lt;br>3.2.1 Allgemeines &lt;br>3.2.2 Wellengeschwindigkeit &lt;br>3.2.3 Refraktionsseismik &lt;br>3.2.4 Bohrlochmessungen&lt;br>3.2.5 Seismische Drucksonden-Messungen (S-CPT)&lt;br>3.2.6 Beispiel für seismische Drucksondenmessungen&lt;br>3.2.7 Oberflächenwellenbasierte Methoden&lt;br>3.2.8 Korrelation aus statischen Feldversuchen&lt;br>3.3 Laborversuche&lt;br>3.3.1 Allgemeines&lt;br>3.3.2 Zyklische Versuche&lt;br>3.3.3 Dynamische Versuche&lt;br>3.3.4 Laufzeit- und Impulsmessungen&lt;br>4 Literatur&lt;br>5 Weiterführende Literatur&lt;br>&amp;nbsp;&lt;br>E3 Dynamisch belastete starre Fundamente&lt;br>1 Allgemeines&lt;br>2 Voraussetzungen und Berechnungsverfahren&lt;br>2.1 Annahmen&lt;br>2.2 Direkte Erregung&lt;br>2.3 Indirekte Erregung&lt;br>2.3.1 Oberflächenfundamente&lt;br>2.3.2 Eingebettete Fundamente&lt;br>2.4 Notation&lt;br>3 Homogener Baugrund&lt;br>3.1 Analytische Lösungen für Federsteifigkeiten und Dämpfungen&lt;br>3.2 Impedanzkurven&lt;br>3.2.1 Statische Steifigkeiten für kreisförmige Oberflächenfundamente&lt;br>3.2.2 Statische Steifigkeiten für kreisförmige eingebettete Fundamente&lt;br>3.2.3 Statische Federsteifigkeiten für rechteckförmige Oberflächenfundamente&lt;br>3.2.4 Statische Steifigkeiten für rechteckförmige eingebettete Fundamente&lt;br>3.2.5 Dynamische Steifigkeiten für kreisförmige Oberflächenfundamente&lt;br>3.2.6 Dynamische Steifigkeiten für kreisförmige eingebettete Fundamente&lt;br>3.2.7 Dynamische Steifigkeiten für rechteckförmige Oberflächenfundamente&lt;br>3.2.8 Dynamische Steifigkeiten für rechteckförmige eingebettete Fundamente&lt;br>4 Inhomogener Baugrund &lt;br>4.1 Einfluss der Gründungslasten&lt;br>4.2 Kontinuierliche Steifigkeitszunahme und Steifigkeitssprünge&lt;br>5 Abschätzung des Einflusses weiterer Parameter&lt;br>5.1 Querdehnzahl &lt;br>5.2 Streifenfundamente &lt;br>6 Sensitivität der Fundamentschwingungen &lt;br>7 Berechnungsbeispiele &lt;br>7.1 Vorbemerkungen &lt;br>7.2 Vertikale Schwingungen am starren Rechteckfundament &lt;br>7.3 Gekoppelte Horizontal- und Kippschwingungen eines starren Rechteckfundamentes&lt;br>7.3.1 Berechnung mit Berücksichtigung der Einbettung &lt;br>7.3.2 Berechnung ohne Berücksichtigung der Einbettung &lt;br>7.3.3 Vergleich der Berechnungen mit und ohne Berücksichtigung der Einbettung &lt;br>7.4 Durch Bodenschwingungen erregtes Rechteckfundament (Indirekte Erregung) &lt;br>8 Literatur &lt;br>&amp;nbsp;&lt;br>E4 Bleibende Verformungen&lt;br>1 Grundlagen der Akkumulation bleibender Verformungen &lt;br>2 Näherungsweise Ermittlung bleibender Verformungen im Boden &lt;br>2.1 Allgemeiner Überblick&lt;br>2.2 Ermittlung der zyklischen Schubspannungen und Scherdehnungen &lt;br>2.3 Labor- und Feldversuche &lt;br>2.4 Ermittlung bleibender Dehnungen in bindigen Böden &lt;br>2.5 Ermittlung bleibender Dehnungen in nichtbindigen Böden mit dem HCA-Modell &lt;br>2.6 Ermittlung der Setzungen von Flachfundamenten infolge zyklischer bzw. dynamischer Einwirkungen &lt;br>3 Bauwerksschäden durch indirekte Erregung ? Weitere Phänomene &lt;br>4 Berechnungsbeispiele &lt;br>4.1 Bleibende Setzung eines Maschinenfundamentes &lt;br>4.2 Setzung eines durch Bodenschwingungen erregten Rechteckfundamentes &lt;br>5 Literatur &lt;br>&amp;nbsp;&lt;br>E5 Dynamisch belastete Pfahlgründungen&lt;br>2 Steifigkeit und Dämpfung des Einzelpfahls &lt;br>2.1 Definitionen und Annahmen &lt;br>2.2 Dynamische Vertikal- und Torsionssteifigkeit &lt;br>2.3 Dynamische Horizontal- und Kippsteifigkeit &lt;br>3 Steifigkeit und Dämpfung von Pfahlgruppen &lt;br>4 Bemerkungen zur Anwendung und weitere Näherungen &lt;br>5 Beispielanwendungen &lt;br>5.1 Leitfaden für den Anwender für vertikale Anregung &lt;br>5.2 Beispiel 1 &lt;br>5.3 Beispiel 2 &lt;br>6 Direkt und indirekt angeregte Pfahlgründungen &lt;br>6.1 Allgemeines &lt;br>6.2 Berechnungsverfahren bei direkt oder indirekt angeregten Schwingungen von Baustrukturen auf Pfahl- und Flachgründungen &lt;br>6.3 Beispiel für indirekte Anregung eines Einzelpfahles &lt;br>6.4 Direkte und indirekte Anregung einer Pfahlgründung ? Allgemeine Anmerkungen &lt;br>7 Literatur &lt;br>&amp;nbsp;&lt;br>E6 Ausbreitung und Übertragung von Erschütterungen&lt;br>1 Aufgabenstellung &lt;br>2 Schienenverkehr &lt;br>2.1 Charakterisierung der Erschütterungsquelle &lt;br>2.2 Schwingungsausbreitung &lt;br>2.3 Boden-Bauwerk-Interaktion &lt;br>2.4 Maßnahmen zum Erschütterungsschutz &lt;br>2.4.1 Minderung am Emissionsort (Schiene / Oberbau) &lt;br>2.4.2 Minderung auf der Übertragungsstrecke im Boden &lt;br>2.4.3 Minderung am Immissionsort (Gebäude) &lt;br>3 Baubetrieb &lt;br>3.1 Charakterisierung der Erschütterungsquelle &lt;br>3.2 Schwingungsausbreitung und Übertragung &lt;br>3.3 Maßnahmen zum Erschütterungsschutz &lt;br>4 Abbruchsprengungen &lt;br>4.1 Charakterisierung der Erschütterungsquelle &lt;br>4.2 Schwingungsausbreitung und Übertragung &lt;br>4.3 Maßnahmen zum Erschütterungsschutz &lt;br>5 Literatur &lt;br>6 Weiterführende Literatur</d104>
+      </textcontent>
+      <textcontent>
+         <x426>12</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="ger">Der AK 1.4 Baugrunddynamik gehört zur Fachsektion Bodenmechanik der Deutschen Gesellschaft für Geotechnik e.V. und ist seit 1980 aktiv. Die Empfehlungen werden in Unterausschüssen erarbeitet und mit verwandten Arbeitskreisen abgestimmt. Darüber hinaus haben weitere Ingenieure und Ingenieurinnen aus Forschung und Praxis an den Empfehlungen als ständige Gäste mitgewirkt.</d104>
+      </textcontent>
+   </collateraldetail>
+   <publishingdetail>
+      <imprint>
+         <b079>Ernst &amp; Sohn</b079>
+      </imprint>
+      <publisher>
+         <b291>01</b291>
+         <publisheridentifier>
+            <x447>05</x447>
+            <b244>5107025</b244>
+         </publisheridentifier>
+         <b081>Ernst &amp; Sohn</b081>
+         <website>
+            <b367>02</b367>
+            <b294>Wiley-VCH Online-Katalog</b294>
+            <b295>http://www.wiley-vch.de/ISBN978-3-433-03460-6</b295>
+         </website>
+         <website>
+            <b367>01</b367>
+            <b295>http://www.wiley-vch.de</b295>
+         </website>
+      </publisher>
+      <productcontact>
+         <x482>10</x482>
+         <x484>Wiley-VCH GmbH</x484>
+         <j272>product_safety@wiley.com</j272>
+         <x552>Boschstrasse 12</x552>
+         <j349>Weinheim</j349>
+         <x590>69469</x590>
+         <b251>DE</b251>
+      </productcontact>
+      <b394>02</b394>
+      <publishingdate><x448>01</x448><b306 dateformat="00">20260422</b306></publishingdate>
+   </publishingdetail>
+   <relatedmaterial>
+      <relatedproduct>
+         <x455>03</x455>
+         <productidentifier><b221>15</b221><b244>9783433031988</b244></productidentifier>
+         <productidentifier><b221>03</b221><b244>9783433031988</b244></productidentifier>
+      </relatedproduct>
+   </relatedmaterial>
+   <productsupply>
+      <supplydetail>
+         <supplier>
+            <j292>01</j292>
+            <supplieridentifier><j345>05</j345><b244>5109189</b244></supplieridentifier>
+            <j137>Wiley-VCH GmbH</j137>
+            <j270>+49 6201-606-0</j270>
+            <j272>info@wiley-vch.de</j272>
+            <website><b367>33</b367><b295>http://www.wiley-vch.de</b295></website>
+         </supplier>
+         <j396>10</j396>
+         <supplydate><x461>08</x461><b306 dateformat="00">20260422</b306></supplydate>
+         <j145>20</j145>
+         <price>
+            <x462>04</x462>
+            <discountcoded><j363>02</j363><j378>Wiley-VCH ONIX-Rabattkennzeichen V3</j378><j364>ST</j364></discountcoded>
+            <j266>01</j266>
+            <j151>89.00</j151>
+            <tax>
+               <x470>01</x470>
+               <x471>R</x471>
+               <x472>7</x472>
+               <x473>83.18</x473>
+               <x474>5.82</x474>
+            </tax>
+            <j152>EUR</j152>
+            <territory><x449>DE</x449></territory>
+         </price>
+      </supplydetail>
+   </productsupply>
+</product>
+<product>
+   <a001>3527354921</a001>
+   <a002>02</a002>
+   <a194>01</a194>
+   <recordsourceidentifier>
+      <x311>05</x311>
+      <b244>5109189</b244>
+   </recordsourceidentifier>
+   <a197>Wiley-VCH GmbH</a197>
+   <productidentifier><b221>01</b221><b233>Publishers Order No</b233><b244>1135492 000</b244></productidentifier>
+   <productidentifier><b221>15</b221><b244>9783527354924</b244></productidentifier>
+   <productidentifier><b221>03</b221><b244>9783527354924</b244></productidentifier>
+   <barcode><x312>01</x312><x313>00</x313></barcode>
+   <descriptivedetail>
+      <x314>00</x314>
+      <b012>BB</b012>
+      <x416>10</x416>
+      <measure><x315>01</x315><c094>244</c094><c095>mm</c095></measure>
+      <measure><x315>02</x315><c094>170</c094><c095>mm</c095></measure>
+      <x316>DE</x316>
+      <productclassification><b274>04</b274><b275>49019900</b275></productclassification>
+      <titledetail>
+         <b202>01</b202>
+         <titleelement><b034>1</b034><x409>01</x409><b203>Photofunctional Polymer Composites for Bioapplications</b203></titleelement>
+      </titledetail>
+      <contributor>
+         <b034>1</b034>
+         <b035>A01</b035>
+         <b036>Xiaoyu Wang</b036>
+         <b037>Wang, Xiaoyu</b037>
+         <b039>Xiaoyu</b039>
+         <b040>Wang</b040>
+      </contributor>
+      <contributor>
+         <b034>2</b034>
+         <b035>A01</b035>
+         <b036>Lidong Li</b036>
+         <b037>Li, Lidong</b037>
+         <b039>Lidong</b039>
+         <b040>Li</b040>
+      </contributor>
+      <b057>1</b057>
+      <b058>1. Auflage</b058>
+      <language><b253>01</b253><b252>eng</b252></language>
+      <extent><b218>11</b218><b219>592</b219><b220>03</b220></extent>
+      <extent><b218>00</b218><b219>592</b219><b220>03</b220></extent>
+      <b125>3</b125>
+      <ancillarycontent>
+         <x423>02</x423>
+         <b257>3</b257>
+      </ancillarycontent>
+      <subject>
+         <x425/>
+         <b067>26</b067>
+         <b068>2.0</b068>
+         <b069>1655</b069>
+      </subject>
+      <subject>
+         <x425/>
+         <b067>93</b067>
+         <b068>1.5</b068>
+         <b069>PNRL</b069>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>CH93</b069>
+         <b070>Photochemie</b070>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>MSF0</b069>
+         <b070>Verbundwerkstoffe</b070>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>PY40</b069>
+         <b070>Charakterisierung von Polymeren</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Charakterisierung von Polymeren</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Chemie</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Chemistry</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Composites</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Materials Science</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Materialwissenschaften</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Photochemie</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Photochemistry</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Polymer Characterization</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Polymer Science &amp; Technology</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Polymerwissenschaft u. -technologie</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Verbundwerkstoffe</b070>
+      </subject>
+   </descriptivedetail>
+   <collateraldetail>
+      <textcontent>
+         <x426>03</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">Covers a wide range of photofunctional polymer composites in different forms, such as nanoparticles, fibers, films and hydrogels and their applications in the biological field.</d104>
+      </textcontent>
+      <textcontent>
+         <x426>04</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">1 INTRODUCTION&lt;br>1.1 Research status of photofunctional polymer composites&lt;br>1.2 Classification of photofunctional polymer composites&lt;br>1.3 Prospects for bioapplications of photofunctional polymer composites&lt;br>&amp;nbsp;&lt;br>2 STRUCTURES AND PROPERTIES OF PHOTOFUNCTIONAL MATERIALS&lt;br>2.1 Small organic molecules&lt;br>2.2 Conjugated polymers&lt;br>2.3 Noble metal nanomaterials&lt;br>2.4 Inorganic non-metallic materials&lt;br>2.5 Other materials&lt;br>&amp;nbsp;&lt;br>3 CONSTRUCTION OF PHOTOFUNCTIONAL POLYMER COMPOSITES&lt;br>3.1 Photofunctional organic polymer composite&lt;br>3.2 Photofunctional organic/inorganic polymer composite&lt;br>&amp;nbsp;&lt;br>4 PHOTOFUNCTIONAL POLYMER NANOCOMPOSITES&lt;br>4.1 Structures of photofunctional polymer nanocomposites&lt;br>4.2 Functions of photofunctional polymer nanocomposites&lt;br>4.3 Bioapplications of photofunctional polymer nanocomposites&lt;br>&amp;nbsp;&lt;br>5 PHOTOFUNCTIONAL POLYMER FIBER COMPOSITES&lt;br>5.1 Structures of photofunctional fiber composites&lt;br>5.2 Functions of photofunctional fiber composites&lt;br>5.3 Bioapplications of photofunctional fiber composites&lt;br>&amp;nbsp;&lt;br>6 PHOTOFUNCTIONAL POLYMER COMPOSITE FILMS&lt;br>6.1 Structures of photofunctional polymer composite films&lt;br>6.2 Functions of photofunctional polymer composite films&lt;br>6.3 Bioapplications of photofunctional polymer composite films&lt;br>&amp;nbsp;&lt;br>7 PHOTOFUNCTIONAL POLYMER HYDROGEL COMPOSITES&lt;br>7.1 Structures of photofunctional polymer hydrogel composites&lt;br>7.2 Functions of photofunctional polymer hydrogel composites&lt;br>7.3 Bioapplications of photofunctional polymer hydrogel composites&lt;br>&amp;nbsp;&lt;br>8 FUTURE DEVELOPMENT OF PHOTOFUNCTIONAL POLYMER COMPOSITES&lt;br>&amp;nbsp;&lt;br></d104>
+      </textcontent>
+      <textcontent>
+         <x426>12</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">Xiaoyu Wang received a PhD degree in Materials Science and Engineering from the University of Science and Technology Beijing in 2014. After postdoctoral work at the Institute of Chemistry, Chinese Academy of Sciences, she was appointed to a faculty position at University of Science and Technology Beijing in 2016, and is now an associate professor. Currently, her research focuses on the preparation and application of composite system based on fluorescent materials. She has authored more than 80 scientific publications.&lt;br>Lidong Li, the professor of School of Materials Science and Engineering. He received a PhD in Physical Chemistry from Max Planck Institute of Colloids and Interfaces in Germany (with Prof. Helmuth Möhwald) in 2004. Then he worked at Max Planck Institute of Colloids and Interfaces as a project researcher. He was promoted as a Professor at Technical Institute of Physics and Chemistry, Chinese Academy of Sciences, China in 2005. He moved to University of Science and Technology Beijing in 2007. His research interests include photoelectronic device, polymer synthesis, self-assembly, nanostructured materials, organic solar cell, OLEDs.&lt;br></d104>
+      </textcontent>
+      <supportingresource>
+         <x436>01</x436>
+         <x427>00</x427>
+         <x437>03</x437>
+         <resourceversion>
+            <x441>02</x441>
+            <resourceversionfeature>
+               <x442>01</x442>
+               <x439>D502</x439>
+            </resourceversionfeature>
+            <x435>https://catalogimages.wiley.com/images/db/jimages/9783527354924.jpg</x435>
+         </resourceversion>
+      </supportingresource>
+   </collateraldetail>
+   <publishingdetail>
+      <imprint>
+         <b079>Wiley-VCH</b079>
+      </imprint>
+      <publisher>
+         <b291>01</b291>
+         <publisheridentifier>
+            <x447>05</x447>
+            <b244>5109189</b244>
+         </publisheridentifier>
+         <b081>Wiley-VCH GmbH</b081>
+         <website>
+            <b367>02</b367>
+            <b294>Wiley-VCH Online-Katalog</b294>
+            <b295>http://www.wiley-vch.de/ISBN978-3-527-35492-4</b295>
+         </website>
+         <website>
+            <b367>01</b367>
+            <b295>http://www.wiley-vch.de</b295>
+         </website>
+      </publisher>
+      <productcontact>
+         <x482>10</x482>
+         <x484>Wiley-VCH GmbH</x484>
+         <j272>product_safety@wiley.com</j272>
+         <x552>Boschstrasse 12</x552>
+         <j349>Weinheim</j349>
+         <x590>69469</x590>
+         <b251>DE</b251>
+      </productcontact>
+      <b394>02</b394>
+      <publishingdate><x448>01</x448><b306 dateformat="00">20260610</b306></publishingdate>
+   </publishingdetail>
+   <productsupply>
+      <supplydetail>
+         <supplier>
+            <j292>01</j292>
+            <supplieridentifier><j345>05</j345><b244>5109189</b244></supplieridentifier>
+            <j137>Wiley-VCH GmbH</j137>
+            <j270>+49 6201-606-0</j270>
+            <j272>info@wiley-vch.de</j272>
+            <website><b367>33</b367><b295>http://www.wiley-vch.de</b295></website>
+         </supplier>
+         <j396>10</j396>
+         <supplydate><x461>08</x461><b306 dateformat="00">20260610</b306></supplydate>
+         <j145>20</j145>
+         <price>
+            <x462>02</x462>
+            <discountcoded><j363>02</j363><j378>Wiley-VCH ONIX-Rabattkennzeichen V3</j378><j364>ST</j364></discountcoded>
+            <j266>02</j266>
+            <j151>179.00</j151>
+            <tax>
+               <x470>01</x470>
+               <x471>R</x471>
+               <x472>7</x472>
+               <x473>167.29</x473>
+               <x474>11.71</x474>
+            </tax>
+            <j152>EUR</j152>
+            <territory><x449>DE</x449></territory>
+         </price>
+      </supplydetail>
+   </productsupply>
+</product>
+<product>
+   <a001>3433034680</a001>
+   <a002>02</a002>
+   <a194>01</a194>
+   <recordsourceidentifier>
+      <x311>05</x311>
+      <b244>5109189</b244>
+   </recordsourceidentifier>
+   <a197>Wiley-VCH GmbH</a197>
+   <productidentifier><b221>01</b221><b233>Publishers Order No</b233><b244>1603468 000</b244></productidentifier>
+   <productidentifier><b221>15</b221><b244>9783433034682</b244></productidentifier>
+   <productidentifier><b221>03</b221><b244>9783433034682</b244></productidentifier>
+   <barcode><x312>01</x312><x313>00</x313></barcode>
+   <descriptivedetail>
+      <x314>00</x314>
+      <b012>BB</b012>
+      <x416>10</x416>
+      <measure><x315>01</x315><c094>244</c094><c095>mm</c095></measure>
+      <measure><x315>02</x315><c094>170</c094><c095>mm</c095></measure>
+      <x316>DE</x316>
+      <productclassification><b274>04</b274><b275>49019900</b275></productclassification>
+      <collection>
+         <x329>10</x329>
+         <collectionidentifier><x344>01</x344><b233>VLB-Xnr</b233><b244>X-1008-7077-3</b244></collectionidentifier>
+         <titledetail>
+            <b202>01</b202>
+            <titleelement>
+               <b034>1</b034>
+               <x409>02</x409>
+               <b203>Stahlbau-Kalender</b203>
+            </titleelement>
+         </titledetail>
+      </collection>
+      <titledetail>
+         <b202>01</b202>
+         <titleelement><b034>1</b034><x409>01</x409><b203>Stahlbau-Kalender 2026</b203><b029>Schwerpunkte: Neue Normen in der Anwendung; Schlanke Tragwerke</b029></titleelement>
+      </titledetail>
+      <contributor>
+         <b034>1</b034>
+         <b035>B01</b035>
+         <nameidentifier><x415>16</x415><b244>0000000117706753</b244></nameidentifier>
+         <b036>Ulrike Kuhlmann</b036>
+         <b037>Kuhlmann, Ulrike</b037>
+         <b039>Ulrike</b039>
+         <b040>Kuhlmann</b040>
+      </contributor>
+      <contributor>
+         <b034>2</b034>
+         <b035>B01</b035>
+         <b036>Markus Knobloch</b036>
+         <b037>Knobloch, Markus</b037>
+         <b039>Markus</b039>
+         <b040>Knobloch</b040>
+      </contributor>
+      <b057>1</b057>
+      <b058>1. Auflage</b058>
+      <language><b253>01</b253><b252>ger</b252></language>
+      <extent><b218>11</b218><b219>688</b219><b220>03</b220></extent>
+      <extent><b218>00</b218><b219>688</b219><b220>03</b220></extent>
+      <b125>310</b125>
+      <ancillarycontent>
+         <x423>02</x423>
+         <b257>40</b257>
+      </ancillarycontent>
+      <ancillarycontent>
+         <x423>07</x423>
+         <b257>270</b257>
+      </ancillarycontent>
+      <subject>
+         <x425/>
+         <b067>26</b067>
+         <b068>2.0</b068>
+         <b069>1685</b069>
+      </subject>
+      <subject>
+         <x425/>
+         <b067>93</b067>
+         <b068>1.5</b068>
+         <b069>TN</b069>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>CE03</b069>
+         <b070>Tragwerke</b070>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>CE07</b069>
+         <b070>Stahlhochbau u. Brückenbau</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Bauingenieur- u. Bauwesen</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Stahlhochbau u. Brückenbau</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Tragwerke</b070>
+      </subject>
+   </descriptivedetail>
+   <collateraldetail>
+      <textcontent>
+         <x426>03</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">The book explains parts of the new EC generation with specific application references, such as icing on tall structures or the design of towers, masts, and chimneys. Further chapters are devoted to scaffoldings, hydraulic steel structures, silos, and screw connections.</d104>
+      </textcontent>
+      <textcontent>
+         <x426>03</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="ger">Der Stahlbau-Kalender 2026 dokumentiert verlässlich und aus erster Hand den aktuellen Stand der Stahlbau-Regelwerke und unterstützt die Leser:innen bei der Anwendung der neuen Normen. Der aktualisierte Beitrag zu Eurocode 3 Teil 1-1: Allgemeine Bemessungsregeln und Regeln für den Hochbau enthält den Text der neuen Norm DIN EN 1993-1-1:2025-04, die in naher Zukunft die derzeitige Fassung aus 2010 ersetzen wird. Die Regeln aus dem Entwurf zum Nationalen Anhang 2025 wurden an den entsprechenden Stellen eingefügt und erläuternde Kommentare zu ausgewählten Kapiteln, Absätzen, Tabellen und Bildern der Norm ergänzt.&lt;br>Vor dem Hintergrund der Vorbereitung der zweiten Eurocode-Generation werden der neue eigenständige Eurocode 1 Teil 1-9 (Eislasten) und der neue Eurocode 3 Teil 3 (Türme, Maste, Schornsteine) mit ihren wesentlichen strukturellen und technischen Änderungen vorgestellt und kommentiert.&lt;br>Weitere Kapitel widmen sich spezifischen Stahlbauthemen:&lt;br>Für den Brückenbau wird zum ersten Mal ein praxisorientierter Ansatz zur Bewertung des Plattenbeulens von Stahlhohlkastenquerschnitten mit gekrümmten Untergurten zusammen mit neuen Regeln zur Beultragfähigkeit vorgestellt. Zum Einstieg in die hohe konstruktive Komplexität von Silos gibt es einen Beitrag in die Einwirkungen und Tragstrukturen mit Verweisen auf die zukünftigen Änderungen im Eurocode 1 Teil 4. Die Regelungen der aktualisierten DASt-Richtlinie 024 in Ergänzung von DIN EN 1090-2 in Bezug auf geschraubte Verbindungen werden ebenfalls erläutert. Der Stand der Gerüstbautechnik und ein erweiterter Regelungsraum sind Gegenstand von Forschungsvorhaben zur Materialeffizienz, welche in einem Kapitel dargestellt werden.&lt;br>In bewährter Weise bewegen sich alle Kapitel nahe an der Ingenieurpraxis und enthalten zahlreiche Beispiele.&lt;br>Das Buch ist ein Wegweiser für die richtige Berechnung und Konstruktion im gesamten Stahlbau mit neuen Themen in jeder Ausgabe. Herausragende Autoren aus der Industrie, aus Ingenieurbüros und aus der Forschung vermitteln Grundlagen und geben aktuelle praxisbezogene Einführungen.&lt;br></d104>
+      </textcontent>
+      <textcontent>
+         <x426>04</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="ger">Vorwort&lt;br>Autor:innenverzeichnis&lt;br>Stahlbaunormen - DIN EN 1993-1-1: Allgemeine Bemessungsregeln und Regeln für den Hochbau (Ulrike Kuhlmann, Anna-Lena Bours) &lt;br>Muster-Verwaltungsvorschrift Technische Baubestimmungen (MVV TB), Normen und Bescheide im Metallbau (Karsten Kathage, Christoph Ortmann)&lt;br>Eurocode 1 - Einwirkungen auf Tragwerke, Teil 1-9 Eislasten - der neu erstellte Eurocode (Bodo Wichura, Volker Cornelius, Frank Wolf)&lt;br>Neue Entwicklungen in FprEN 1993-3 - Türme, Maste und Schornsteine (Mathias Clobes, Kay-Uwe Bernhardt, Klaus Thiele)&lt;br>Gekrümmte plattenförmige Bauteile: Bemessung,Hiintergrund und Beispiele (Luís Simões da Silva, Filip Ljubinkovic, João Pedro Martins, Sara Uszball)&lt;br>Silos aus Metallwerkstoffen (Hannah Boehm, Martin Kaldenhoff, Cornelius Ruckenbrod)&lt;br>Aktuelle Forschungsergebnisse im Stahlwasserbau und Aufbereitungen für die Baupraxis (Harald Unterweger, Alexander Ecker)&lt;br>Ausführung von Verschraubungen im Stahlbau nach DASt-Richtlinie 024 (Nathalie Stranghöner, Dominik Jungbluth, Nariman Afzali, Lukas Makevicius)&lt;br>Erweiterter Regelungsraum zum Stand der Gerüstbautechnik und Potenziale im Gerüstbau (Manuel Friz, Tobias Schmidt, Martin Mensinger, Drilon Gubetini)&lt;br>Stichwortverzeichnis</d104>
+      </textcontent>
+      <textcontent>
+         <x426>12</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="ger">Die Herausgeberin Prof. Dr.-Ing. Ulrike Kuhlmann war bis Juni 2024 Leiterin des Instituts für Konstruktion und Entwurf an der Universität Stuttgart.&lt;br>Der Herausgeber Prof. Dr. sc. techn. habil. Markus Knobloch ist Leiter des Instituts für Konstruktion und Entwurf an der Universität Stuttgart.&lt;br>Die Wahl der Autor:innen für den Stahlbau-Kalender ist durch konsequente Praxisnähe bestimmt. Sie sind an der Schnittstelle von Forschung und Praxis an Universitäten, in der Industrie und in Ingenieurbüros tätig und als herausragende Fachleute auf ihren Gebieten bekannt.&lt;br>&amp;nbsp;&lt;br></d104>
+      </textcontent>
+      <supportingresource>
+         <x436>01</x436>
+         <x427>00</x427>
+         <x437>03</x437>
+         <resourceversion>
+            <x441>02</x441>
+            <resourceversionfeature>
+               <x442>01</x442>
+               <x439>D502</x439>
+            </resourceversionfeature>
+            <x435>https://catalogimages.wiley.com/images/db/jimages/9783433034682.jpg</x435>
+         </resourceversion>
+      </supportingresource>
+   </collateraldetail>
+   <publishingdetail>
+      <imprint>
+         <b079>Ernst &amp; Sohn</b079>
+      </imprint>
+      <publisher>
+         <b291>01</b291>
+         <publisheridentifier>
+            <x447>05</x447>
+            <b244>5107025</b244>
+         </publisheridentifier>
+         <b081>Ernst &amp; Sohn</b081>
+         <website>
+            <b367>02</b367>
+            <b294>Wiley-VCH Online-Katalog</b294>
+            <b295>http://www.wiley-vch.de/ISBN978-3-433-03468-2</b295>
+         </website>
+         <website>
+            <b367>01</b367>
+            <b295>http://www.wiley-vch.de</b295>
+         </website>
+      </publisher>
+      <productcontact>
+         <x482>10</x482>
+         <x484>Wiley-VCH GmbH</x484>
+         <j272>product_safety@wiley.com</j272>
+         <x552>Boschstrasse 12</x552>
+         <j349>Weinheim</j349>
+         <x590>69469</x590>
+         <b251>DE</b251>
+      </productcontact>
+      <b394>02</b394>
+      <publishingdate><x448>01</x448><b306 dateformat="00">20260415</b306></publishingdate>
+   </publishingdetail>
+   <productsupply>
+      <supplydetail>
+         <supplier>
+            <j292>01</j292>
+            <supplieridentifier><j345>05</j345><b244>5109189</b244></supplieridentifier>
+            <j137>Wiley-VCH GmbH</j137>
+            <j270>+49 6201-606-0</j270>
+            <j272>info@wiley-vch.de</j272>
+            <website><b367>33</b367><b295>http://www.wiley-vch.de</b295></website>
+         </supplier>
+         <j396>10</j396>
+         <supplydate><x461>08</x461><b306 dateformat="00">20260415</b306></supplydate>
+         <j145>20</j145>
+         <price>
+            <x462>04</x462>
+            <discountcoded><j363>02</j363><j378>Wiley-VCH ONIX-Rabattkennzeichen V3</j378><j364>ST</j364></discountcoded>
+            <j266>01</j266>
+            <j151>159.00</j151>
+            <tax>
+               <x470>01</x470>
+               <x471>R</x471>
+               <x472>7</x472>
+               <x473>148.60</x473>
+               <x474>10.40</x474>
+            </tax>
+            <j152>EUR</j152>
+            <territory><x449>DE</x449></territory>
+         </price>
+         <price>
+            <x462>14</x462>
+            <j262>Preis bei Abn. d. Gesamtwerks</j262>
+            <discountcoded><j363>02</j363><j378>Wiley-VCH ONIX-Rabattkennzeichen V3</j378><j364>ST</j364></discountcoded>
+            <j266>01</j266>
+            <j151>139.00</j151>
+            <tax>
+               <x470>01</x470>
+               <x471>R</x471>
+               <x472>7</x472>
+               <x473>129.91</x473>
+               <x474>9.09</x474>
+            </tax>
+            <j152>EUR</j152>
+            <territory><x449>DE</x449></territory>
+         </price>
+      </supplydetail>
+   </productsupply>
+</product>
+<product>
+   <a001>3527355197</a001>
+   <a002>02</a002>
+   <a194>01</a194>
+   <recordsourceidentifier>
+      <x311>05</x311>
+      <b244>5109189</b244>
+   </recordsourceidentifier>
+   <a197>Wiley-VCH GmbH</a197>
+   <productidentifier><b221>01</b221><b233>Publishers Order No</b233><b244>1135519 000</b244></productidentifier>
+   <productidentifier><b221>15</b221><b244>9783527355198</b244></productidentifier>
+   <productidentifier><b221>03</b221><b244>9783527355198</b244></productidentifier>
+   <barcode><x312>01</x312><x313>00</x313></barcode>
+   <descriptivedetail>
+      <x314>00</x314>
+      <b012>BB</b012>
+      <x416>10</x416>
+      <measure><x315>01</x315><c094>244</c094><c095>mm</c095></measure>
+      <measure><x315>02</x315><c094>170</c094><c095>mm</c095></measure>
+      <productclassification><b274>04</b274><b275>49019900</b275></productclassification>
+      <titledetail>
+         <b202>01</b202>
+         <titleelement><b034>1</b034><x409>01</x409><b203>Biological Processes and Techniques in Zero Waste Management</b203></titleelement>
+      </titledetail>
+      <contributor>
+         <b034>1</b034>
+         <b035>A01</b035>
+         <b036>Garima Awasthi</b036>
+         <b037>Awasthi, Garima</b037>
+         <b039>Garima</b039>
+         <b040>Awasthi</b040>
+      </contributor>
+      <contributor>
+         <b034>2</b034>
+         <b035>A01</b035>
+         <b036>Mohit Nigam</b036>
+         <b037>Nigam, Mohit</b037>
+         <b039>Mohit</b039>
+         <b040>Nigam</b040>
+      </contributor>
+      <b057>1</b057>
+      <b058>1. Auflage</b058>
+      <language><b253>01</b253><b252>eng</b252></language>
+      <extent><b218>11</b218><b219>304</b219><b220>03</b220></extent>
+      <extent><b218>00</b218><b219>304</b219><b220>03</b220></extent>
+      <subject>
+         <x425/>
+         <b067>26</b067>
+         <b068>2.0</b068>
+         <b069>1650</b069>
+      </subject>
+      <subject>
+         <x425/>
+         <b067>93</b067>
+         <b068>1.5</b068>
+         <b069>TDC</b069>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>CE41</b069>
+         <b070>Müll- u. Abfallwirtschaft</b070>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>CG10</b069>
+         <b070>Prozesssteuerung</b070>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>CH31</b069>
+         <b070>Biotechnologie i. d. Chemie</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Bauingenieur- u. Bauwesen</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Biotechnologie i. d. Chemie</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Biotechnology</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Chemical Engineering</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Chemie</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Chemische Verfahrenstechnik</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Chemistry</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Civil Engineering &amp; Construction</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Müll- u. Abfallwirtschaft</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Process Engineering</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Prozesssteuerung</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Waste Treatment</b070>
+      </subject>
+   </descriptivedetail>
+   <collateraldetail>
+      <textcontent>
+         <x426>03</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">The book covers the various biological aspects that can be utilized for the treatment and management of waste generated from various industries to achieve zero waste. Techniques and approaches to the treatment of industrial waste, plastic waste, electronic waste and nuclear waste are discussed in dedicated chapters.&lt;br>It also includes advanced tools and technologies of biotechnology and bioengineering developed for the treatment of waste and concludes with a discussion on guidelines, regulations, policies and laws for zero waste treatment and management.</d104>
+      </textcontent>
+      <textcontent>
+         <x426>04</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">PART 1 Basic Biological Source, Tools, and Techniques &lt;br>Chapter 1 Microbes: A Basic tools and techniques for valorization of waste  &lt;br>Chapter 2 Waste Valorization: A Raw Material Source for Industry &lt;br>Chapter 3 Instrumentation and control system for biological valorization of waste &lt;br>&amp;nbsp;&lt;br>PART 2 Process and techniques for valorization of different waste and achieve Zero waste   &lt;br>Chapter 4 Bioprocess Techniques: A Profitable Industrial Approaches to achieve Zero Waste &lt;br>Chapter 5 Biological process and techniques for valorization of the House Hold Wastes &lt;br>Chapter 6 Scientific Approach for valorization of Industrial Waste &lt;br>Chapter 7 Biological techniques for treatment of biomedical wastes and wastewater  &lt;br>Chapter 8 Valorization of Agricultural Wastes: Biological Processes and Techniques &lt;br>Chapter 9 Biological Methods and Techniques for Plastic Waste Valorization &lt;br>Chapter 10 Biological Approaches to the Valorization of Nuclear Wastes &lt;br>&amp;nbsp;&lt;br>PART 3 Advanced Tool and Techniques to achieve Zero waste &lt;br>Chapter 11 In silico tool and techniques supporting waste treatment &lt;br>Chapter 12 Cluster and Consortia development for treatment of waste  &lt;br>Chapter 13 Genetically Engineered Microorganisms for the treatment of waste &lt;br>&amp;nbsp;&lt;br>PART 4 Guidelines, Policies and Laws &lt;br>Chapter 14 Waste Management Rules and Regulations &lt;br>&amp;nbsp;&lt;br></d104>
+      </textcontent>
+      <textcontent>
+         <x426>12</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">Garima Awasthi is the Assistant Professor at the Amity Institute of Biotechnology (AIB), Amity University Uttar Pradesh (AUUP) Lucknow Campus, Lucknow, UP, India. Having obtained her academic degrees M. Tech in Chemical Technology (Specialization in Biochemical Engineering) from HBTI Kanpur, UP, India, She spent most of her career working for Industries before taking up her present appointment at AIB, AUUP, Lucknow, UP, India. Dr Garima has authored over 25 scientific publications along with 1 edited book and has been awarded with 2 National Patents. She is also a member of the various National Professional and Educational Societies like Indian Red Cross Society, Asian Biological Research Foundation (ABRF).</d104>
+      </textcontent>
+      <supportingresource>
+         <x436>01</x436>
+         <x427>00</x427>
+         <x437>03</x437>
+         <resourceversion>
+            <x441>02</x441>
+            <resourceversionfeature>
+               <x442>01</x442>
+               <x439>D502</x439>
+            </resourceversionfeature>
+            <x435>https://catalogimages.wiley.com/images/db/jimages/9783527355198.jpg</x435>
+         </resourceversion>
+      </supportingresource>
+   </collateraldetail>
+   <publishingdetail>
+      <imprint>
+         <b079>Wiley-VCH</b079>
+      </imprint>
+      <publisher>
+         <b291>01</b291>
+         <publisheridentifier>
+            <x447>05</x447>
+            <b244>5109189</b244>
+         </publisheridentifier>
+         <b081>Wiley-VCH GmbH</b081>
+         <website>
+            <b367>02</b367>
+            <b294>Wiley-VCH Online-Katalog</b294>
+            <b295>http://www.wiley-vch.de/ISBN978-3-527-35519-8</b295>
+         </website>
+         <website>
+            <b367>01</b367>
+            <b295>http://www.wiley-vch.de</b295>
+         </website>
+      </publisher>
+      <productcontact>
+         <x482>10</x482>
+         <x484>Wiley-VCH GmbH</x484>
+         <j272>product_safety@wiley.com</j272>
+         <x552>Boschstrasse 12</x552>
+         <j349>Weinheim</j349>
+         <x590>69469</x590>
+         <b251>DE</b251>
+      </productcontact>
+      <b394>02</b394>
+      <publishingdate><x448>01</x448><b306 dateformat="00">20260415</b306></publishingdate>
+   </publishingdetail>
+   <productsupply>
+      <supplydetail>
+         <supplier>
+            <j292>01</j292>
+            <supplieridentifier><j345>05</j345><b244>5109189</b244></supplieridentifier>
+            <j137>Wiley-VCH GmbH</j137>
+            <j270>+49 6201-606-0</j270>
+            <j272>info@wiley-vch.de</j272>
+            <website><b367>33</b367><b295>http://www.wiley-vch.de</b295></website>
+         </supplier>
+         <j396>10</j396>
+         <supplydate><x461>08</x461><b306 dateformat="00">20260415</b306></supplydate>
+         <j145>20</j145>
+         <price>
+            <x462>02</x462>
+            <discountcoded><j363>02</j363><j378>Wiley-VCH ONIX-Rabattkennzeichen V3</j378><j364>ST</j364></discountcoded>
+            <j266>01</j266>
+            <j151>149.00</j151>
+            <tax>
+               <x470>01</x470>
+               <x471>R</x471>
+               <x472>7</x472>
+               <x473>139.25</x473>
+               <x474>9.75</x474>
+            </tax>
+            <j152>EUR</j152>
+            <territory><x449>DE</x449></territory>
+         </price>
+      </supplydetail>
+   </productsupply>
+</product>
+<product>
+   <a001>3527414630</a001>
+   <a002>02</a002>
+   <a194>01</a194>
+   <recordsourceidentifier>
+      <x311>05</x311>
+      <b244>5109189</b244>
+   </recordsourceidentifier>
+   <a197>Wiley-VCH GmbH</a197>
+   <productidentifier><b221>01</b221><b233>Publishers Order No</b233><b244>1141463 000</b244></productidentifier>
+   <productidentifier><b221>15</b221><b244>9783527414635</b244></productidentifier>
+   <productidentifier><b221>03</b221><b244>9783527414635</b244></productidentifier>
+   <barcode><x312>01</x312><x313>00</x313></barcode>
+   <descriptivedetail>
+      <x314>00</x314>
+      <b012>BC</b012>
+      <x416>10</x416>
+      <measure><x315>01</x315><c094>244</c094><c095>mm</c095></measure>
+      <measure><x315>02</x315><c094>170</c094><c095>mm</c095></measure>
+      <productclassification><b274>04</b274><b275>49019900</b275></productclassification>
+      <titledetail>
+         <b202>01</b202>
+         <titleelement><b034>1</b034><x409>01</x409><b203>Engineering Illumination Optics</b203><b029>Case Studies and Exercises</b029></titleelement>
+      </titledetail>
+      <contributor>
+         <b034>1</b034>
+         <b035>A01</b035>
+         <b036>Henning Rehn</b036>
+         <b037>Rehn, Henning</b037>
+         <b039>Henning</b039>
+         <b040>Rehn</b040>
+      </contributor>
+      <contributor>
+         <b034>2</b034>
+         <b035>A01</b035>
+         <b036>Julius Muschaweck</b036>
+         <b037>Muschaweck, Julius</b037>
+         <b039>Julius</b039>
+         <b040>Muschaweck</b040>
+      </contributor>
+      <b057>1</b057>
+      <b058>1. Auflage</b058>
+      <language><b253>01</b253><b252>eng</b252></language>
+      <extent><b218>11</b218><b219>416</b219><b220>03</b220></extent>
+      <extent><b218>00</b218><b219>416</b219><b220>03</b220></extent>
+      <b125>250</b125>
+      <ancillarycontent>
+         <x423>02</x423>
+         <b257>250</b257>
+      </ancillarycontent>
+      <subject>
+         <x425/>
+         <b067>26</b067>
+         <b068>2.0</b068>
+         <b069>1643</b069>
+      </subject>
+      <subject>
+         <x425/>
+         <b067>93</b067>
+         <b068>1.5</b068>
+         <b069>PHJ</b069>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>EEC0</b069>
+         <b070>Bildgebende Systeme u. Verfahren</b070>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>MS50</b069>
+         <b070>Optische u. Nichtlineare Optische Materialien</b070>
+      </subject>
+      <subject>
+         <b067>23</b067>
+         <b171>Subject</b171>
+         <b069>PH40</b069>
+         <b070>Optik u. Photonik</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Bildgebende Systeme u. Verfahren</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Electrical &amp; Electronics Engineering</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Elektrotechnik u. Elektronik</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Imaging Systems &amp; Technology</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Materials Science</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Materialwissenschaften</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Optical and Non-Linear Optical Materials</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Optics &amp; Photonics</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Optik u. Photonik</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Optische u. Nichtlineare Optische Materialien</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Physics</b070>
+      </subject>
+      <subject>
+         <b067>20</b067>
+         <b070>Physik</b070>
+      </subject>
+   </descriptivedetail>
+   <collateraldetail>
+      <textcontent>
+         <x426>03</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">This unique guide offers a detailed and practical exploration of illumination optics from fundamentals to real-world applications.</d104>
+      </textcontent>
+      <textcontent>
+         <x426>04</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">1 Introduction  &lt;br>1.1 Goals or How to Use This Book  &lt;br>1.2 Structure  &lt;br>1.2.1 Exercises and Solutions  &lt;br>1.2.2 Knowledge and Simulation Boxes  &lt;br>1.3 Quick Estimates  &lt;br>1.4 Lovely Characters  &lt;br>&amp;nbsp;&lt;br>2 Warm Up  &lt;br>2.1 Angles and Solid Angles  &lt;br>2.2 Refraction  &lt;br>2.3 Paraxial Optics  &lt;br>2.4 Laser Beams  &lt;br>2.5 Conic Sections  &lt;br>&amp;nbsp;&lt;br>3 Theory  &lt;br>3.1 Rays  &lt;br>3.2 Etendue  &lt;br>3.3 Light Tubes  &lt;br>3.4 Radiometry  &lt;br>3.5 Black Body and Solar Radiation  &lt;br>3.6 Spectral Calculus, Color and Vision  &lt;br>&amp;nbsp;&lt;br>4 Practice  &lt;br>4.1 Light Sources  &lt;br>4.2 Lighting  &lt;br>4.3 Solar Collection, Astronomy and Space  &lt;br>4.4 Daylighting  &lt;br>4.5 Horticulture Lighting  &lt;br>4.6 Light Detection  &lt;br>4.7 Projectors and Stage Lights  &lt;br>4.8 Headlamps  &lt;br>&amp;nbsp;&lt;br>5 Design  &lt;br>5.1 Predesign Calculus  &lt;br>5.2 Evaluation of Datasheets and Product Specifications  &lt;br>5.3 Selecting a Light Source  &lt;br>&amp;nbsp;&lt;br>6 Conclusions  &lt;br>6.1 Calculus Summary  &lt;br>6.2 Experiences and Suggestions  &lt;br></d104>
+      </textcontent>
+      <textcontent>
+         <x426>12</x426>
+         <x427>00</x427>
+         <d104 textformat="02" language="eng">Henning Rehn worked in various roles in several optics industries, in illumination and imaging optics. He was a project manager in Carl Zeiss Jena, a Principal Key Expert of Optical Design in OSRAM, Berlin, and a team leader of the optical design at FISBA in St. Gallen, Switzerland. He is currently starting his own optical consulting business.&lt;br>&amp;nbsp;&lt;br>Julius Muschaweck has more than 25 years of experience in illumination optics, including the roles of Senior Principal Key Expert at OSRAM, and Principal Optical Scientist at ARRI. As an independent consultant, founder and owner of his company, JMO, Julius Muschaweck aims to help companies perfect their illumination optics through innovative solutions and expertise.&lt;br></d104>
+      </textcontent>
+      <supportingresource>
+         <x436>01</x436>
+         <x427>00</x427>
+         <x437>03</x437>
+         <resourceversion>
+            <x441>02</x441>
+            <resourceversionfeature>
+               <x442>01</x442>
+               <x439>D502</x439>
+            </resourceversionfeature>
+            <x435>https://catalogimages.wiley.com/images/db/jimages/9783527414635.jpg</x435>
+         </resourceversion>
+      </supportingresource>
+   </collateraldetail>
+   <publishingdetail>
+      <imprint>
+         <b079>Wiley-VCH</b079>
+      </imprint>
+      <publisher>
+         <b291>01</b291>
+         <publisheridentifier>
+            <x447>05</x447>
+            <b244>5109189</b244>
+         </publisheridentifier>
+         <b081>Wiley-VCH GmbH</b081>
+         <website>
+            <b367>02</b367>
+            <b294>Wiley-VCH Online-Katalog</b294>
+            <b295>http://www.wiley-vch.de/ISBN978-3-527-41463-5</b295>
+         </website>
+         <website>
+            <b367>01</b367>
+            <b295>http://www.wiley-vch.de</b295>
+         </website>
+      </publisher>
+      <productcontact>
+         <x482>10</x482>
+         <x484>Wiley-VCH GmbH</x484>
+         <j272>product_safety@wiley.com</j272>
+         <x552>Boschstrasse 12</x552>
+         <j349>Weinheim</j349>
+         <x590>69469</x590>
+         <b251>DE</b251>
+      </productcontact>
+      <b394>02</b394>
+      <publishingdate><x448>01</x448><b306 dateformat="00">20260415</b306></publishingdate>
+   </publishingdetail>
+   <productsupply>
+      <supplydetail>
+         <supplier>
+            <j292>01</j292>
+            <supplieridentifier><j345>05</j345><b244>5109189</b244></supplieridentifier>
+            <j137>Wiley-VCH GmbH</j137>
+            <j270>+49 6201-606-0</j270>
+            <j272>info@wiley-vch.de</j272>
+            <website><b367>33</b367><b295>http://www.wiley-vch.de</b295></website>
+         </supplier>
+         <j396>10</j396>
+         <supplydate><x461>08</x461><b306 dateformat="00">20260415</b306></supplydate>
+         <j145>20</j145>
+         <price>
+            <x462>02</x462>
+            <discountcoded><j363>02</j363><j378>Wiley-VCH ONIX-Rabattkennzeichen V3</j378><j364>ST</j364></discountcoded>
+            <j266>01</j266>
+            <j151>119.00</j151>
+            <tax>
+               <x470>01</x470>
+               <x471>R</x471>
+               <x472>7</x472>
+               <x473>111.21</x473>
+               <x474>7.79</x474>
+            </tax>
+            <j152>EUR</j152>
+            <territory><x449>DE</x449></territory>
+         </price>
+      </supplydetail>
+   </productsupply>
+</product>
+</ONIXmessage>

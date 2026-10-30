@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.wiley.hermes.runners.HermesTestRunner
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 84.96 s -- in com.wiley.hermes.runners.HermesTestRunner
